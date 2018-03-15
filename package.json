@@ -1,0 +1,38 @@
+{
+  "name": "beatriz",
+  "version": "1.0.0",
+  "description": "This is a webpage for Tacos Beatriz",
+  "main": "index.js",
+  "dependencies": {
+  "body-parser": "*",
+  "bootstrap": "^4.0.0",
+  "express": "^4.15.0",
+  "jquery": "^3.1.1",
+  "material-ui": "^1.0.0-beta.35",
+  "react": "^15.4.2",
+  "react-dom": "^15.4.2",
+  "react-router-dom": "*"
+},
+"devDependencies": {
+  "babel-core": "^6.23.1",
+  "babel-loader": "^6.3.2",
+  "babel-preset-env": "*",
+  "babel-preset-react": "6.23.0",
+  "webpack": "^2.2.1"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotoriousDreamers/Beatriz.git"
+  },
+  "author": "Javier, Marco, Lalo, Eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NotoriousDreamers/Beatriz/issues"
+  },
+  "homepage": "https://github.com/NotoriousDreamers/Beatriz#readme"
+}
