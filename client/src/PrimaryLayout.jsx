@@ -5,7 +5,7 @@ import Home from "./pages/Home.jsx";
 import Catering from "./pages/Catering.jsx";
 
 const PrimaryLayout = ({ match }) => (
-  <div className="priary-layout">
+  <div className="primary-layout">
     <main>
       <Switch>
         <Route exact path={`${match.path}`} component={Home} />

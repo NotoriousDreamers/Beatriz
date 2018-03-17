@@ -2,7 +2,7 @@ import React from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 
-export default class Home extends React.Component {
+ class Home extends React.Component {
   constructor(props){
     super(props);
     this.state = {};
@@ -11,8 +11,10 @@ export default class Home extends React.Component {
   render(){
     return(
       <div>
-        <h1>"This is in the Home page"</h1>
+        <h1 class="title is-1">"This is in the Home page"</h1>
       </div>
     );
   }
 }
+
+export default Home;
