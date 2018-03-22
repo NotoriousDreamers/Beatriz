@@ -7,11 +7,11 @@
     "body-parser": "*",
     "bootstrap": "^4.0.0",
     "bulma": "^0.6.2",
-    "bulma-react": "0.0.8",
-    "bulma-start": "0.0.2",
     "express": "^4.15.0",
     "jquery": "^3.3.1",
     "react": "^15.4.2",
+    "react-bootstrap": "^0.32.1",
+    "react-coverflow": "^0.2.11",
     "react-dom": "^15.4.2",
     "react-router-dom": "*"
   },
