@@ -3,6 +3,8 @@ import $ from "jquery";
 import { Link } from "react-router-dom";
 import Coverflow from 'react-coverflow';
 
+import Video from "../components/home/Video.jsx";
+
 class Home extends React.Component {
   constructor(props) {
     super(props);
