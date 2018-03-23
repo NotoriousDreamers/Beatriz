@@ -18,7 +18,7 @@ class Home extends React.Component {
         <button onClick={this._handleClick.bind(this)}>Random</button>
         <Coverflow
           width={960}
-          height={480}
+          height={350}
           displayQuantityOfSide={2}
           navigation={true}
           enableHeading={false}
