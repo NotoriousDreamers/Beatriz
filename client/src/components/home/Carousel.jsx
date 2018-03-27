@@ -15,7 +15,6 @@ class Carousel extends React.Component {
   render() {
     return (
      <div>
-        <button onClick={this._handleClick.bind(this)}>Random</button>
         <Coverflow
           width={960}
           height={480}
