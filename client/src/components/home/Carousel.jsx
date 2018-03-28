@@ -11,7 +11,7 @@ class Carousel extends React.Component {
       active: 0
     };
 
-  }
+  } 
 
   render() {
     return (
