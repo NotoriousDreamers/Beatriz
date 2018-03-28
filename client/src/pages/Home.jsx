@@ -2,8 +2,9 @@ import React from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 
-import Video from "../components/home/Video.jsx";
+//import Video from "../components/home/Video.jsx";
 import Carousel from "../components/home/Carousel.jsx";
+import Header from "../components/home/Header.jsx";
 
 class Home extends React.Component {
   constructor(props) {
@@ -15,10 +16,10 @@ class Home extends React.Component {
     return (
       <div>
          <div>
-           <Video />
-        </div>
-        <div>
-          <Carousel />
+          <center>
+           <Header />
+         </center>
+           <Carousel />
         </div>
       </div>
     );

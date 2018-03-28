@@ -10,15 +10,15 @@ class Carousel extends React.Component {
     this.state = {
       active: 0
     };
+
   }
 
   render() {
     return (
-     <div>
-        <button onClick={this._handleClick.bind(this)}>Random</button>
+     <div id="pics">
         <Coverflow
           width={960}
-          height={480}
+          height={360}
           displayQuantityOfSide={2}
           navigation={true}
           enableHeading={false}
@@ -31,7 +31,7 @@ class Carousel extends React.Component {
             tabIndex="0"
           >
 
-          </div>
+        </div>
           <img src='http://media.nj.com/essex_impact/photo/2015/09/09/largefamilypackjpg-2556cde2d485c49f.jpg' alt='Wings' />
           <img src='http://placeralplato.com/files/2016/01/Pizza-con-pepperoni.jpg'  />
           <img src='http://taconacolv.com/images/taconaco-tacos.jpg?crc=4127067265'/>
@@ -48,13 +48,13 @@ class Carousel extends React.Component {
 
     );
   }
-
   _handleClick() {
     var num = Math.floor((Math.random() * 10) + 1);
     this.setState({
       active: num
-    });
-  }
+});
+}
+
 };
 
 export default Carousel;
