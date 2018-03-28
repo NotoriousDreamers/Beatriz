@@ -2,7 +2,8 @@ import React from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 
-import Video from "../components/home/Video.jsx";
+import Header from "../components/home/Header.jsx";
+//import Video from "../components/home/Video.jsx";
 import Carousel from "../components/home/Carousel.jsx";
 
 class Home extends React.Component {
@@ -14,8 +15,8 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-         <div>
-           <center><Video /></center>
+        <div>
+          <Header />
         </div>
         <div>
           <Carousel />
