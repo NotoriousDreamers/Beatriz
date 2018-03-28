@@ -15,7 +15,7 @@ class Home extends React.Component {
     return (
       <div>
          <div>
-           <Video />
+           <center><Video /></center>
         </div>
         <div>
           <Carousel />

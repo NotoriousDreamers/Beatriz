@@ -17,7 +17,7 @@ class Carousel extends React.Component {
      <div>
         <Coverflow
           width={960}
-          height={480}
+          height={350}
           displayQuantityOfSide={2}
           navigation={true}
           enableHeading={false}
