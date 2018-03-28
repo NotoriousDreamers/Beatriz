@@ -1,8 +1,4 @@
-#center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 300px;
-    width: 400px;
-
+#Nav{
+  font-family: 'Lobster', cursive;
+  font-size: 40px
 }
