@@ -24,7 +24,7 @@ const Header = (props) => (
       <MenuItem eventKey={3.4}>Separated link</MenuItem>
     </NavDropdown>
   </Nav>
-</Navbar>;
+</Navbar>
   </div>
 )
 export default Header;
