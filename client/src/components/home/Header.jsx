@@ -10,7 +10,7 @@ const Header = (props) => (
     <NavItem eventKey={1} href="www.com">
       Menu
     </NavItem>
-    <NavItem eventKey={2} href="#">
+    <NavItem eventKey={2} href="http://www.tacosbeatriz.com.mx/">
       Catering
     </NavItem>
     <NavItem eventKey={2} href="#">
