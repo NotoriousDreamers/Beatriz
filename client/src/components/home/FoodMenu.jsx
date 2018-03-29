@@ -23,7 +23,7 @@ const FoodMenu = () => (
     <div className="row-2">
       <div className="col-md-4">
 
-        <h3>"Left column 2nd row"</h3>
+          <h3>"Left column 2nd row"</h3>
 
       </div>
       <div className="col-md-4">
@@ -33,14 +33,14 @@ const FoodMenu = () => (
       </div>
       <div className="col-md-4">
 
-        <h3>"Right column 2nd row"</h3>
+          <h3>"Right column 2nd row"</h3>
 
       </div>
     </div>
     <div className="row-3">
       <div className="col-md-4">
 
-        <h3>"Left column 3rd row"</h3>
+          <h3>"Left column 3rd row"</h3>
 
       </div>
       <div className="col-md-4">
@@ -50,7 +50,7 @@ const FoodMenu = () => (
       </div>
       <div className="col-md-4">
 
-        <h3>"Right column 3rd row"</h3>
+          <h3>"Right column 3rd row"</h3>
 
       </div>
     </div>
