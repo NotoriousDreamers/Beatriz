@@ -7,10 +7,17 @@ const Header = (props) => (
     Tacos Beatriz
   </Navbar.Header>
   <Nav>
+    <NavItem eventKey={0} href='/'>
+     Home
+    </NavItem>
     <NavItem eventKey={1} href="www.com">
       Menu
     </NavItem>
+<<<<<<< HEAD
     <NavItem eventKey={2} href="http://www.tacosbeatriz.com.mx/">
+=======
+    <NavItem eventKey={2} href="/catering">
+>>>>>>> master
       Catering
     </NavItem>
     <NavItem eventKey={2} href="#">
