@@ -7,7 +7,7 @@ import Header from "../components/home/Header.jsx";
 import Video from "../components/home/Video.jsx";
 import Carousel from "../components/home/Carousel.jsx";
 import YourReactClass from "../components/home/typewriter.jsx";
-
+ 
 class Home extends React.Component {
   constructor(props) {
     super(props);
