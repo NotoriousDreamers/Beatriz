@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/home/Header.jsx";
 import Video from "../components/home/Video.jsx";
 import Carousel from "../components/home/Carousel.jsx";
+import YourReactClass from "../components/home/typewriter.jsx";
 
 class Home extends React.Component {
   constructor(props) {
@@ -16,11 +17,18 @@ class Home extends React.Component {
     return (
       <div>
         <div>
+          <YourReactClass />
+        </div>
+        <div>
           <Header />
         </div>
+        <br />
+        <br />
         <div>
           <Carousel />
         </div>
+        <br />
+        <br />
         <div>
           <center>
          <Video />
