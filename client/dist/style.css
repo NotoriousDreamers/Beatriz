@@ -43,7 +43,13 @@
 /*This is for the FoodMenu component, it will handle all the img sizes*/
 #foodMenuImgs{
   width: 405px;
-  height: 200px;
+  height: 250px;
+  margin-top: 15px;
+  float: left;
+}
+#foodMenuImgsRight{
+  width: 395px;
+  height: 250px;
   margin-top: 15px;
   float: left;
 }
