@@ -11,14 +11,14 @@ class Catering extends React.Component {
       questions:window.questions
     })
   }
-
 render(){
-  return
-    <div>
-      <Header />
-      <CateringList question={this.state.questions}/>
-      <button>ENVIAR</button>
-    </div>
+  return (
+  <div>
+    <Header />
+    <CateringList question={this.state.questions}/>
+    <button>ENVIAR</button>
+  </div>
+    )
   }
 };
 

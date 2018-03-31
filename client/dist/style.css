@@ -53,3 +53,10 @@
   margin-top: 15px;
   float: left;
 }
+
+/*Title of the FoodMenu*/
+#titletitle{
+  color: blue;
+  font-family: 'Lobster', cursive;
+
+}

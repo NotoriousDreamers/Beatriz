@@ -2,6 +2,8 @@ import React from "react";
 
 const FoodMenu = () => (
 
+<div>
+  <center><h1 id="titletitle">Las especialidades de la casa</h1></center>
   <section className="foodMenu">
     <div className="row-1">
       <div className="col-md-4">
@@ -38,6 +40,7 @@ const FoodMenu = () => (
       </div>
     </div>
   </section>
+</div>
 );
 
 export default FoodMenu;
