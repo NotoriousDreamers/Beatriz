@@ -6,51 +6,34 @@ const FoodMenu = () => (
     <div className="row-1">
       <div className="col-md-4">
 
-          <h3>"Left column 1st row"</h3>
+        <img id='foodMenuImgs' src="https://i.imgur.com/swno6Kk.jpg" alt="Pancho tipo"/>
 
       </div>
       <div className="col-md-4">
 
-          <h3>"Middle column 1st row"</h3>
+        <img id='foodMenuImgs' src="https://i.imgur.com/hwVmxbt.jpg" alt="Pancho tipo"/>
 
       </div>
       <div className="col-md-4">
 
-          <h3>"Right column 1st row"</h3>
+        <img id='foodMenuImgs' src="https://i.imgur.com/G8pO1tb.jpg" alt="Pancho tipo"/>
 
       </div>
     </div>
     <div className="row-2">
       <div className="col-md-4">
 
-          <h3>"Left column 2nd row"</h3>
+        <img id='foodMenuImgs' src="https://i.imgur.com/V7boWLi.jpg" alt="Pancho tipo"/>
 
       </div>
       <div className="col-md-4">
 
-          <h3>"middle column 2nd row"</h3>
+        <img id='foodMenuImgs' src="https://i.imgur.com/2bhIivl.jpg" alt="Pancho tipo"/>
 
       </div>
       <div className="col-md-4">
 
-          <h3>"Right column 2nd row"</h3>
-
-      </div>
-    </div>
-    <div className="row-3">
-      <div className="col-md-4">
-
-          <h3>"Left column 3rd row"</h3>
-
-      </div>
-      <div className="col-md-4">
-
-          <h3>"middle column 3rd row"</h3>
-
-      </div>
-      <div className="col-md-4">
-
-          <h3>"Right column 3rd row"</h3>
+        <img id='foodMenuImgs' src="https://i.imgur.com/APzHbSE.jpg" alt="Pancho tipo"/>
 
       </div>
     </div>

@@ -28,6 +28,9 @@ class Home extends React.Component {
             <br/>
             <br/>
         <div>
+          <FoodMenu />
+        </div>
+        <div>
           <Carousel />
         </div>
             <br/>
