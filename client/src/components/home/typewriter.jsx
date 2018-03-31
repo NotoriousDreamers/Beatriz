@@ -12,7 +12,7 @@ class TypeWriteR extends React.Component {
         <div className="row-1">
           <div className="col-md-4">
 
-            <img id='panchito' src="https://i.imgur.com/TDsMveO.png" alt="Pancho tipo"/>
+            <img id='panchito' src="https://i.imgur.com/cWEMVV6.png" alt="Beatriz tipa"/>
 
           </div>
           <div className="col-md-4">
