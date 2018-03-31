@@ -15,7 +15,7 @@ const Header = (props) => (
       Menu
     </NavItem>
     <NavItem eventKey={2} href="/catering">
-      Banquetes
+      Catering
     </NavItem>
     <NavItem eventKey={2} href="#">
       Sobre Nosotros
