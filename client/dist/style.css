@@ -1,13 +1,41 @@
-#Nav{
-  font-family: 'Lobster', cursive;
-  font-size: 40px
-  text-align:center;
-  width: 0px;
-  position: sticky;
-}
-
-
+/*This is for the Panchito img in the typewritter Component all the way at the top*/
 #panchito{
   width: 350px;
   height: 375px;
+}
+
+/*This is for the Beatriz img in the typewritter Component all the way at the top*/
+#beatriz{
+  width: 350px;
+  height: 375px;
+}
+
+/*This is the TacosBeatriz logo in the typewritter Component all the way at the top*/
+#TacosBeatriz{
+  width: 450px;
+}
+
+/*This is for the breadcrumb Component in ./client/src/components/home/Header.jsx  */
+#Nav{
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  text-align:center;
+  width: 0px;
+}
+
+.navbar {
+ background-color:transparent !important;
+       border-color:transparent;
+       background-image:url("Hasenda.jpg");
+       box-shadow:none;
+}
+
+/*This is for the words "La Roma" in the header component in the breadcrumb*/
+#LaRoma{
+  color: black;
+  font-size: 23px;
+}
+/*This is the words "Tacos Beatriz" in the header component */
+#HeaderTacosBeatriz{
+  color: black;
 }
