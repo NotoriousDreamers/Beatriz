@@ -16,7 +16,7 @@ const FoodMenu = () => (
       </div>
       <div className="col-md-4">
 
-        <img id='foodMenuImgsRight' src="https://i.imgur.com/a6JjDfc.jpg?1" alt="Tortillas Hechas A Mano"/>
+        <img id='foodMenuImgsRightColumn' src="https://i.imgur.com/a6JjDfc.jpg?1" alt="Tortillas Hechas A Mano"/>
 
       </div>
     </div>
@@ -33,7 +33,7 @@ const FoodMenu = () => (
       </div>
       <div className="col-md-4">
 
-        <img id='foodMenuImgsRight' src="https://i.imgur.com/APzHbSE.jpg?1" alt="Mas!!"/>
+        <img id='foodMenuImgsRightColumn' src="https://i.imgur.com/APzHbSE.jpg?1" alt="Mas!!"/>
 
       </div>
     </div>
