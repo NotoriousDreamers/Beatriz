@@ -1,4 +1,26 @@
 import React from "react";
 
+import Foods from "../components/menu/menuDeComidas.jsx";
+import Header from "../components/home/Header.jsx";
 
-<h1>This is where the menu will worked on</h1>
+class Menu extends React.Component {
+  constructor(props){
+    super(props);
+  }
+
+  render() {
+    return (
+      <div>
+        <div>
+          <Header />
+        </div>
+        <div>
+          <Foods />
+        </div>
+      </div>
+    )
+  }
+
+};
+
+export default Menu;
