@@ -1,13 +1,13 @@
 /*This is for the Panchito img in the typewritter Component all the way at the top*/
 #panchito{
-  width: 350px;
-  height: 375px;
+  width: 75%;
+  height: 50%;
 }
 
 /*This is for the Beatriz img in the typewritter Component all the way at the top*/
 #beatriz{
-  width: 350px;
-  height: 375px;
+  width: 75%;
+  height: 50%;
 }
 
 /*This is the TacosBeatriz logo in the typewritter Component all the way at the top*/
@@ -54,9 +54,14 @@
   float: left;
 }
 
+
 /*Title of the FoodMenu*/
 #titletitle{
-  color: blue;
+  color: black;
   font-family: 'Lobster', cursive;
 
+}
+
+#desayunitos{
+  float: left;
 }

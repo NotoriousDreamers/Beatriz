@@ -12,7 +12,7 @@ class TypeWriteR extends React.Component {
         <div className="row-1">
           <div className="col-md-4">
 
-            <img id='panchito' src="https://i.imgur.com/cWEMVV6.png" alt="Beatriz tipa"/>
+            <center><img id='beatriz' src="https://i.imgur.com/cWEMVV6.png" alt="Beatriz tipa"/></center>
 
           </div>
           <div className="col-md-4">
@@ -35,7 +35,7 @@ class TypeWriteR extends React.Component {
           </div>
           <div className="col-md-4">
 
-            <img id='panchito' src="https://i.imgur.com/TDsMveO.png" alt="Pancho tipo"/>
+            <center><img id='panchito' src="https://i.imgur.com/TDsMveO.png" alt="Pancho tipo"/></center>
 
           </div>
         </div>
