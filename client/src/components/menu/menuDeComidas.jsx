@@ -178,9 +178,136 @@ const Foods = () => (
 
         <center><h1>Comidas</h1></center>
         <center><h4>De 1:30 pm en adelante</h4></center>
-        <center><h4>¿Sabes que el desayuno es la segunda comida mas importante del dia?</h4></center>
-
-
+        <center><h2>¿Sabes que la comida es la comida mas importante del día?</h2></center>
+        <center><h3>Entradas</h3></center>
+        <bold><h4>Orden de Guacamole, acompañado de totopos..............................$ 30.00</h4></bold>
+        <bold><h4>Guacamole Estilo Beatriz.................................................................$ 48.00</h4></bold>
+          <ol>
+            <bold><h4>*La estrella de la casa con el toque Beatriz</h4></bold>
+          </ol>
+        <bold><h4>Queso Fundido Beatriz.....................................................................$ 44.00</h4></bold>
+          <ol>
+            <bold><h4>*Servido en cazuelita de barro, con salsa verde y tortillas de harina</h4></bold>
+          </ol>
+        <center><bold><h4>*****Agregue*****</h4></bold></center>
+        <bold><h4>Chorizo, champiñón ó rojas..............................................................$ 15.00</h4></bold>
+        <bold><h4>Chicharron con queso........................................................................$ 44.00</h4></bold>
+          <ol>
+            <bold><h4>*Crujiente chicharrón de queso asado a la plancha</h4></bold>
+          </ol>
+        <bold><h4>Sopecitos con pollo (3 piezas)............................................................$ 35.00</h4></bold>
+          <ol>
+            <bold><h4>*Para chuparse los dedos</h4></bold>
+          </ol>
+        <bold><h4>Quesadillas Beatriz.....................................................................................$ 18.00</h4></bold>
+          <ol>
+            <bold><h4>*Queso Oaxaca, Papa con chorizo, Rajas, Chapiñon, Flor de Calabaza ó Guisado del día</h4></bold>
+          </ol>
+        <bold><h4>Combinada................................................................................................$ 22.00</h4></bold>
+        <center><h3>Sopas</h3></center>
+        <bold><h4>Preparado Beatriz (Consome de la casa).....................................................................$ 58.00</h4></bold>
+          <ol>
+            <bold><h4>*El especial con aguacate, garbanzos, arroz, cilantro y cebolla</h4></bold>
+          </ol>
+        <bold><h4>Consome de Pollo.....................................................................$ 54.00</h4></bold>
+          <ol>
+            <bold><h4>*Con arroz y verdura</h4></bold>
+          </ol>
+        <bold><h4>Sopa Azteca.....................................................................$ 58.00</h4></bold>
+          <ol>
+            <bold><h4>*Nuestra Tradicional Sopa de Tortilla con el toque de la casa</h4></bold>
+          </ol>
+        <bold><h4>Caldo Tlalpeño.....................................................................$ 68.00</h4></bold>
+          <ol>
+            <bold><h4>*Rico y llenador</h4></bold>
+          </ol>
+        <bold><h4>Sopa ó crema del día.....................................................................$ 58.00</h4></bold>
+        <bold><h4>Arroz.....................................................................$ 28.00</h4></bold>
+          <bold><h4>Arroz con.....................................................................$ 38.00</h4></bold>
+            <ol>
+              <bold><h4>*Huevo, Plátano, mole ó Frijoles </h4></bold>
+            </ol>
+        <center><h3>Ensaldas</h3></center>
+        <bold><h4>Ensalada del chef.....................................................................$ 80.00</h4></bold>
+          <ol>
+            <bold><h4>*Con pollo a la parrilla</h4></bold>
+          </ol>
+        <bold><h4>Ensalada Beatriz.....................................................................$ 85.00</h4></bold>
+          <ol>
+            <bold><h4>*Mix de lechugas, garapiñados, queso cabra, mango fresas, con pechuga de pollo</h4></bold>
+          </ol>
+        <center><h3>De la casa</h3></center>
+        <bold><h4>Mole poblano con pollo.....................................................................$ 78.00</h4></bold>
+        <bold><h4>Mole verde con pollo.....................................................................$ 78.00</h4></bold>
+        <bold><h4>Semidorado ó dorado de pollo ó barbacoa de res........................$ 36.00</h4></bold>
+          <ol>
+            <bold><h4>*Acompañadode guacamole, queso y crema</h4></bold>
+          </ol>
+        <bold><h4>Semidorado Especial........................$ 36.00</h4></bold>
+          <ol>
+            <bold><h4>*De pechuga de pollo con mole y frijoles refritos</h4></bold>
+          </ol>
+        <bold><h4>Huarache Sencillo......................................................$ 30.00</h4></bold>
+        <bold><h4>Huarache de Pollo......................................................$ 60.00</h4></bold>
+          <ol>
+            <bold><h4>*De pisa y corre</h4></bold>
+          </ol>
+        <bold><h4>Huarache con Huevo............................................................$ 40.00</h4></bold>
+        <bold><h4>Huarache con cecina...................................................................$ 80.00</h4></bold>
+        <bold><h4>Flautas Beatriz.....................................................$ 40.00</h4></bold>
+        <bold><h4> * </h4></bold>
+        <bold><h4>Nuestros Famosos Tacos de Guisado Beatriz............................$ 18.00</h4></bold>
+        <bold><h5>Tortillas hechas a mano en comal con el sabor del pueblo.</h5></bold>
+        <bold><h5>Con mas de 40 diferentes guisados; pregunte por los del día</h5></bold>
+        <ol>
+          <bold><h4>*Carnitas</h4></bold>
+          <bold><h4>*Chicharron en salsa verde</h4></bold>
+          <bold><h4>*Mole verde con pollo</h4></bold>
+          <bold><h4>*Mole poblano con pollo</h4></bold>
+          <bold><h4>*Rajas con crema</h4></bold>
+          <bold><h4>*Barbacoa de res</h4></bold>
+          <bold><h4>*Cochinita pibil</h4></bold>
+          <bold><h4>*Tinga de pollo</h4></bold>
+          <bold><h4>*Chorizo con papas</h4></bold>
+          <bold><h4>*Guisado del día</h4></bold>
+        </ol>
+        <bold><h4>Carnitas Beatriz---------------el especial de la casa...</h4></bold>
+        <bold><h4>Enfrijoladas con pollo (3 piezas)..................................................$ 78.00</h4></bold>
+        <bold><h4>Enchiladas Suizas (3 piezas)................................................................$ 84.00</h4></bold>
+        <bold><h4>Enchiladas verdes ó rojas......................................................$ 78.00</h4></bold>
+          <ol>
+            <bold><h4>*Las de siempre de pollo ó queso</h4></bold>
+          </ol>
+        <bold><h4>Enmoladas (3 piezas) con el mole especial de la casa...........$ 84.00</h4></bold>
+        <center><h3>Carnes y Aves</h3></center>
+        <bold><h4>Pechuga de pollo a la parrilla ó empanizada 150g.....................$ 130.00</h4></bold>
+          <ol>
+            <bold><h4>*Acompañada de frijoles refritos y arroz ó ensalada</h4></bold>
+          </ol>
+        <bold><h4>Milanesa de res 150g..............................................................$ 150.00</h4></bold>
+          <ol>
+            <bold><h4>*Acompañada de papas a la francesa y ensalada</h4></bold>
+          </ol>
+        <bold><h4>Cecina Enchilada 150g..................................................................$ 150.00</h4></bold>
+        <bold><h4>Cecina de res................................................................................$ 150.00</h4></bold>
+        <center><h3>Postres</h3></center>
+        <bold><h4>Pasteleria de la casa......................................................$ 35.00</h4></bold>
+        <bold><h4>Crepas de cajeta................................................................................$ 35.00</h4></bold>
+        <bold><h4>Flan Napolitano................................................................................$ 35.00</h4></bold>
+        <center><bold><h4>**Agrega a tu postre un cáfe capuchino por $ 18.00**</h4></bold></center>
+        <center><bold><h4>**Ó un Cáfe Americano por $ 14.00**</h4></bold></center>
+        <center><h3>Bebidas</h3></center>
+        <bold><h4>Refresco.........................................................................................$ 28.00</h4></bold>
+        <bold><h4>Agua de Horchata / Jamica / Del día.........................................$ 20.00</h4></bold>
+        <bold><h4>Naranjada ó Limonada.................................................................$ 35.00</h4></bold>
+        <bold><h4>Agua embotellada.................................................................$ 22.00</h4></bold>
+        <bold><h4>Leche Fria o Caliente.................................................................$ 28.00</h4></bold>
+        <bold><h4>Chocolate frio ó caliente.................................................................$ 38.00</h4></bold>
+        <bold><h4>Cáfe Americano.............................................................................$ 28.00</h4></bold>
+        <bold><h4>Cáfe Europeo.............................................................................$ 32.00</h4></bold>
+        <bold><h4>Capuchino.........................................................................................$ 38.00</h4></bold>
+        <bold><h4>Moka.........................................................................................$ 40.00</h4></bold>
+        <bold><h4>Té.........................................................................................................$ 28.00</h4></bold>
       </div>
     </div>
   </section>
