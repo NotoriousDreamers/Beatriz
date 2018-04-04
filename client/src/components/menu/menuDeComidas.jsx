@@ -178,7 +178,58 @@ const Foods = () => (
 
         <center><h1>Comidas</h1></center>
         <center><h4>De 1:30 pm en adelante</h4></center>
-        <center><h4>¿Sabes que el desayuno es la segunda comida mas importante del dia?</h4></center>
+        <center><h2>¿Sabes que la comida es la comida mas importante del día?</h2></center>
+        <center><h3>Entradas</h3></center>
+        <bold><h4>Orden de Guacamole, acompañado de totopos..............................$ 30.00</h4></bold>
+        <bold><h4>Guacamole Estilo Beatriz.................................................................$ 48.00</h4></bold>
+          <ol>
+            <bold><h4>*La estrella de la casa con el toque Beatriz</h4></bold>
+          </ol>
+        <bold><h4>Queso Fundido Beatriz.....................................................................$ 44.00</h4></bold>
+          <ol>
+            <bold><h4>*Servido en cazuelita de barro, con salsa verde y tortillas de harina</h4></bold>
+          </ol>
+        <center><bold><h4>*****Agregue*****</h4></bold></center>
+        <bold><h4>Chorizo, champiñón ó rojas..............................................................$ 15.00</h4></bold>
+        <bold><h4>Chicharron con queso........................................................................$ 44.00</h4></bold>
+          <ol>
+            <bold><h4>*Crujiente chicharrón de queso asado a la plancha</h4></bold>
+          </ol>
+        <bold><h4>Sopecitos con pollo (3 piezas)............................................................$ 35.00</h4></bold>
+          <ol>
+            <bold><h4>*Para chuparse los dedos</h4></bold>
+          </ol>
+        <bold><h4>Quesadillas Beatriz.....................................................................................$ 18.00</h4></bold>
+          <ol>
+            <bold><h4>*Queso Oaxaca, Papa con chorizo, Rajas, Chapiñon, Flor de Calabaza ó Guisado del día</h4></bold>
+          </ol>
+        <bold><h4>Combinada................................................................................................$ 22.00</h4></bold>
+        <center><h3>Sopas</h3></center>
+        <bold><h4>Preparado Beatriz (Consome de la casa).....................................................................$ 58.00</h4></bold>
+          <ol>
+            <bold><h4>*El especial con aguacate, garbanzos, arroz, cilantro y cebolla</h4></bold>
+          </ol>
+        <bold><h4>Consome de Pollo.....................................................................$ 54.00</h4></bold>
+          <ol>
+            <bold><h4>*Con arroz y verdura</h4></bold>
+          </ol>
+        <bold><h4>Sopa Azteca.....................................................................$ 58.00</h4></bold>
+          <ol>
+            <bold><h4>*Nuestra Tradicional Sopa de Tortilla con el toque de la casa</h4></bold>
+          </ol>
+        <bold><h4>Caldo Tlalpeño.....................................................................$ 68.00</h4></bold>
+          <ol>
+            <bold><h4>*Rico y llenador</h4></bold>
+          </ol>
+        <bold><h4>Sopa ó crema del día.....................................................................$ 58.00</h4></bold>
+        <bold><h4>Arroz.....................................................................$ 58.00</h4></bold>
+          <bold><h4>Arroz con.....................................................................$ 68.00</h4></bold>
+            <ol>
+              <bold><h4>*Huevo, Plátano, </h4></bold>
+            </ol>
+
+
+
 
 
       </div>
