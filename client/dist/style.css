@@ -17,7 +17,7 @@
 
 /*This is for the breadcrumb Component in ./client/src/components/home/Header.jsx  */
 #Nav{
-  font-family: 'Lobster', cursive;
+  font-family: 'Bree Serif', serif;
   font-size: 40px;
   text-align:center;
   width: 0px;
@@ -79,7 +79,7 @@
 
 .faq ul li {
 	display:block;
-	float:left;
+	float:right;
 	padding:5px;
 }
 

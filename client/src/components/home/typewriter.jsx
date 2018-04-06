@@ -21,15 +21,10 @@ class TypeWriteR extends React.Component {
             </div>
             <div>
               <TypeWriter typing={0.9}>
-                The Mexican Revolution (Spanish: Revolución Mexicana) was a major armed struggle c.
-                 1910–1920 radically transforming Mexican culture and government. Although recent
-                research has focused on local and regional aspects of the Revolution, it was a
-                "genuinely national revolution".[4] Its outbreak in 1910 resulted from the failure
-                of the 35-year-long regime of Porfirio Díaz to find a managed solution to the
-                presidential succession. This meant there was a political crisis among competing
-                 elites and the opportunity for agrarian insurrection.[5] Wealthy landowner
-                 Francisco I. Madero challenged Díaz in the 1910 presidential election, and following
-                 the rigged results, revolted under the Plan of San Luis Potosí.
+
+          <span style={{color: 'red'}}>
+              <div style={{fontSize: 25}}></div>
+                </span>
               </TypeWriter>
             </div>
           </div>
