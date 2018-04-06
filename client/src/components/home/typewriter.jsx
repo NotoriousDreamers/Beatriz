@@ -6,8 +6,6 @@ class TypeWriteR extends React.Component {
 
   render() {
     return (
-      // Passing in text.
-
       <section className="foodMenu">
         <div className="row-1">
           <div className="col-md-4">
@@ -18,14 +16,6 @@ class TypeWriteR extends React.Component {
           <div className="col-md-4">
             <div>
               <img id='TacosBeatriz' src="https://i.imgur.com/gS6IPvN.png?2" alt="Logo del Restaurante"/>
-            </div>
-            <div>
-              <TypeWriter typing={0.9}>
-
-          <span style={{color: 'red'}}>
-              <div style={{fontSize: 25}}></div>
-                </span>
-              </TypeWriter>
             </div>
           </div>
           <div className="col-md-4">
