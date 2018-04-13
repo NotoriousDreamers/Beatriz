@@ -1,8 +1,9 @@
 import React from "react";
 
-import Foods from "../components/menu/menuDeComidas.jsx";
 import Header from "../components/home/Header.jsx";
-import Menubonito from "../components/menu/flipBoook.jsx";
+import Footer from "../components/home/Footer.jsx";
+import Foods from "../components/menu/menuDeComidas.jsx";
+
 
 class Menu extends React.Component {
   constructor(props){
@@ -16,10 +17,10 @@ class Menu extends React.Component {
           <Header />
         </div>
         <div>
-          <Menubonito />
+          <Foods />
         </div>
         <div>
-          <Foods />
+          <Footer />
         </div>
       </div>
     )

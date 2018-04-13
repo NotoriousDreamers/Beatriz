@@ -1,12 +1,15 @@
 import React from 'react';
+import { Grid, Row, Col } from "react-bootstrap";
 
-var Video = () => (
+const Video = () => (
 
-  <div className='video-player'>
+  <Grid>
+    <Row className="show-grid-video">
 
-    <iframe width='600' height='450' src='https://www.youtube.com/embed/uiHF6HIRtjg?rel=0' allowFullScreen></iframe>
+      <iframe src="//www.youtube.com/embed/uiHF6HIRtjg?rel=0&amp;showinfo=0"  allowFullScreen></iframe>
 
-  </div>
-)
+    </Row>
+  </Grid>
+);
 
 export default Video;
