@@ -3,10 +3,10 @@ import $ from "jquery";
 import { Link } from "react-router-dom";
 
 
-
 import Map from "../components/home/Map.jsx";
 import Video from "../components/home/Video.jsx";
 import Header from "../components/home/Header.jsx";
+import Footer from "../components/home/Footer.jsx";
 import Header2 from "../components/home/Header2.jsx";
 import FoodMenu from "../components/home/FoodMenu.jsx";
 import Carousel from "../components/home/Carousel.jsx";
@@ -41,6 +41,9 @@ class Home extends React.Component {
         </div>
         <div>
           <Map />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     );
