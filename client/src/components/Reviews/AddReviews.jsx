@@ -15,7 +15,7 @@ this.updateReviews=this.updateReviews.bind(this);
 updateTitle(e){
   this.setState({
     title: e.target.value
-  })
+  }) 
 }
 
 updateReviews(e){
