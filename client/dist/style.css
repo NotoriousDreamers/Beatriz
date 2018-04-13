@@ -255,15 +255,26 @@ body {
   margin-top: 11%;
   font-size: 24px;
 }
-.reviewItems {
+#reviewsItem {
   background-color:transparent !important;
         border-color:transparent;
         background-image:url("Hasenda.jpg");
         box-shadow:none;
+        font-size:14pt;
 }
 
-.textReview {
-     font-size:18pt;
-     height:420px;
-     width:200px;
+#txtReview {
+     font-size:14pt;
+     height:30px;
+     width:400px;
+}
+#mediaHeading {
+  font-size:18pt;
+}
+
+#txtReview2 {
+  font-size:14pt;
+  height:100px;
+  width:400px;
+
 }

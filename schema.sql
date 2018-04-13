@@ -15,4 +15,4 @@ CREATE TABLE reviews (
  *    mysql -u root < schema.sql
  *  to create the database and the tables.*/
 
-INSERT INTO reviews (title, reviews) VALUES ('Maravilloso!', 'La comida esta fabulosa unas de las mejores que e probado');
+INSERT INTO reviews (title, reviews) VALUES ('Maravilloso!', 'La comida esta fabulosa unas de las mejores que e probado!');
