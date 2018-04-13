@@ -14,20 +14,20 @@ const Foods = () => (
         <center><h3 className="TitulosYHeaders">Jugos</h3></center>
         <bold><h4 className="TextosComunes">Naranja ó Zanahoria..................................................................$ 26.00</h4></bold>
         <center><h3 className="TitulosYHeaders">Jugos Combinados</h3></center>
-        <bold><h4 className="TextosComunes">Jugo Energético (piña, apio, nopal y naranja)......................................$ 32.00</h4></bold>
-        <bold><h4 className="TextosComunes">Jugo Antigripal (guayaba, piña, naranja, limón y miel).........................$ 32.00</h4></bold>
-        <bold><h4 className="TextosComunes">Jugo Verde (nopal, perejil, apio, piña, naranja, limón).........................$ 32.00</h4></bold>
-        <bold><h4 className="TextosComunes">Jugo Estimulante (naranja, fresa, kiwi)................................................$ 32.00</h4></bold>
-        <bold><h4 className="TextosComunes">Jugo para la Memoria (piña, almendra y naranja)................................$ 32.00</h4></bold>
+        <bold><h4 className="TextosComunes">Jugo Energético (piña, apio, nopal y naranja)...........................$ 32.00</h4></bold>
+        <bold><h4 className="TextosComunes">Jugo Antigripal (guayaba, piña, naranja, limón y miel)..............$ 32.00</h4></bold>
+        <bold><h4 className="TextosComunes">Jugo Verde (nopal, perejil, apio, piña, naranja, limón)..............$ 32.00</h4></bold>
+        <bold><h4 className="TextosComunes">Jugo Estimulante (naranja, fresa, kiwi).....................................$ 32.00</h4></bold>
+        <bold><h4 className="TextosComunes">Jugo para la Memoria (piña, almendra y naranja)....................$ 32.00</h4></bold>
         <center><h3 className="TitulosYHeaders">Frutas</h3></center>
-        <bold><h4 className="TextosComunes">Orden de papaya, melon ó sandia (200 gramos)..................................$ 26.00</h4></bold>
-        <bold><h4 className="TextosComunes">Agrega a tu orden de fruta queso cotage o yogurt natural....................$ 10.00</h4></bold>
-        <bold><h4 className="TextosComunes">Granola y miel.........................................................................................$ 5.00</h4></bold>
-        <bold><h4 className="TextosComunes">Copa de Fruta (con queso cotage o yogurt natural), con granola y miel (200g)....................................................................................................$ 56.00</h4></bold>
+        <bold><h4 className="TextosComunes">Orden de papaya, melon ó sandia (200 gramos)....................$ 26.00</h4></bold>
+        <bold><h4 className="TextosComunes">Agrega a tu orden de fruta queso cotage o yogurt natural......$ 10.00</h4></bold>
+        <bold><h4 className="TextosComunes">Granola y miel...........................................................................$ 5.00</h4></bold>
+        <bold><h4 className="TextosComunes">Copa de Fruta (con queso cotage o yogurt natural), con granola y miel (200g)..............................................................................$ 56.00</h4></bold>
         <center><h3 className="TitulosYHeaders">Para empezar el día</h3></center>
-        <bold><h4 className="TextosComunes">Pan dulce 1 pieza..................................................................................$ 14.00</h4></bold>
-        <bold><h4 className="TextosComunes">Bisquets con mermelada/cajeta.............................................................$ 33.00</h4></bold>
-        <bold><h4 className="TextosComunes">Hot cakes (3) con mantequilla y miel ó cajeta........................................$ 58.00</h4></bold>
+        <bold><h4 className="TextosComunes">Pan dulce 1 pieza.......................................................................................$ 14.00</h4></bold>
+        <bold><h4 className="TextosComunes">Bisquets con mermelada/cajeta....................................................................$ 33.00</h4></bold>
+        <bold><h4 className="TextosComunes">Hot cakes (3) con mantequilla y miel ó cajeta...................................$ 58.00</h4></bold>
         <bold><h4 className="TextosComunes">Hot cakes "Big Boy" con huevo ó tocino (2)...........................................$ 68.00</h4></bold>
         <bold><h4 className="TextosComunes">Waffles....................................................................................................$ 72.00</h4></bold>
         <ol>
@@ -179,22 +179,22 @@ const Foods = () => (
         <center><h4 className="TextosComunes">De 1:30 pm en adelante</h4></center>
         <center><h2 className="TitulosYHeaders">¿Sabes que la comida es la comida mas importante del día?</h2></center>
         <center><h3 className="TitulosYHeaders">Entradas</h3></center>
-        <bold><h4 className="TextosComunes">Orden de Guacamole, acompañado de totopos..............................$ 30.00</h4></bold>
-        <bold><h4 className="TextosComunes">Guacamole Estilo Beatriz.................................................................$ 48.00</h4></bold>
+        <bold><h4 className="TextosComunes">Orden de Guacamole, acompañado de totopos......................$ 30.00</h4></bold>
+        <bold><h4 className="TextosComunes">Guacamole Estilo Beatriz........................................................$ 48.00</h4></bold>
           <ol>
             <bold><h4 className="TextosComunes">*La estrella de la casa con el toque Beatriz</h4></bold>
           </ol>
-        <bold><h4 className="TextosComunes">Queso Fundido Beatriz.....................................................................$ 44.00</h4></bold>
+        <bold><h4 className="TextosComunes">Queso Fundido Beatriz.............................................................$ 44.00</h4></bold>
           <ol>
             <bold><h4 className="TextosComunes">*Servido en cazuelita de barro, con salsa verde y tortillas de harina</h4></bold>
           </ol>
         <center><bold><h4 className="TextosComunes">*****Agregue*****</h4></bold></center>
-        <bold><h4 className="TextosComunes">Chorizo, champiñón ó rojas..............................................................$ 15.00</h4></bold>
-        <bold><h4 className="TextosComunes">Chicharron con queso........................................................................$ 44.00</h4></bold>
+        <bold><h4 className="TextosComunes">Chorizo, champiñón ó rojas.......................................................$ 15.00</h4></bold>
+        <bold><h4 className="TextosComunes">Chicharron con queso...............................................................$ 44.00</h4></bold>
           <ol>
             <bold><h4 className="TextosComunes">*Crujiente chicharrón de queso asado a la plancha</h4></bold>
           </ol>
-        <bold><h4 className="TextosComunes">Sopecitos con pollo (3 piezas)............................................................$ 35.00</h4></bold>
+        <bold><h4 className="TextosComunes">Sopecitos con pollo (3 piezas)..................................................$ 35.00</h4></bold>
           <ol>
             <bold><h4 className="TextosComunes">*Para chuparse los dedos</h4></bold>
           </ol>
@@ -202,7 +202,7 @@ const Foods = () => (
           <ol>
             <bold><h4 className="TextosComunes">*Queso Oaxaca, Papa con chorizo, Rajas, Chapiñon, Flor de Calabaza ó Guisado del día</h4></bold>
           </ol>
-        <bold><h4 className="TextosComunes">Combinada................................................................................................$ 22.00</h4></bold>
+        <bold><h4 className="TextosComunes">Combinada.............................................................................$ 22.00</h4></bold>
         <center><h3 className="TitulosYHeaders">Sopas</h3></center>
         <bold><h4 className="TextosComunes">Preparado Beatriz (Consome de la casa).....................................................................$ 58.00</h4></bold>
           <ol>
