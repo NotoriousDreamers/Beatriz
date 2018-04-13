@@ -1,48 +1,51 @@
 import React from "react";
+import { Grid, Row, Col } from "react-bootstrap";
 
 const FoodMenu = () => (
 
-  <center>
-    <div>
-      <center><h1 id="titletitle">Las especialidades de la casa</h1></center>
-      <section className="foodMenu">
-        <div className="row-1">
-          <div className="col-sm-4">
+  <Grid className="show-grid-FoodMenu">
+    <Row className="foodMenuTop" >
+      <Col xs={6} md={4}>
 
-            <img id='foodMenuImgs' src="https://i.imgur.com/S4NdCiu.png?1" alt="Sopes"/>
+      <img id='foodMenuImgs' src="https://i.imgur.com/HYi5H3V.jpg?1" alt="Sopes"/>
 
-          </div>
-          <div className="col-sm-4">
 
-            <img id='foodMenuImgs' src="https://i.imgur.com/4V87vdI.jpg?1" alt="Huaraches"/>
+      </Col>
+      <Col xs={6} md={4}>
 
-          </div>
-          <div className="col-sm-4">
+      <img id='foodMenuImgs' src="https://i.imgur.com/eqSk0UM.jpg?2" alt="Huaraches"/>
 
-            <img id='foodMenuImgsRightColumn' src="https://i.imgur.com/a6JjDfc.jpg?1" alt="Tortillas Hechas A Mano"/>
 
-          </div>
-        </div>
-        <div className="row-2">
-          <div className="col-sm-4">
+      </Col>
+      <Col xs={6} md={4}>
 
-            <img id='foodMenuImgs' src="https://i.imgur.com/GJD1Qww.jpg?1" alt="Jugos Frescos Al Momento"/>
+      <img id='foodMenuImgs' src="https://i.imgur.com/AQVCLby.jpg?1" alt="Tortillas Hechas A Mano"/>
 
-          </div>
-          <div className="col-sm-4">
 
-            <img id='foodMenuImgs' src="https://i.imgur.com/2bhIivl.jpg?1" alt="Tacos de Guisado"/>
+      </Col>
+    </Row>
+    <Row className="foodMenuBottom" >
+      <Col xs={6} md={4}>
 
-          </div>
-          <div className="col-sm-4">
+      <img id='foodMenuImgs' src="https://i.imgur.com/hMk0UQO.jpg?1" alt="Jugos Frescos Al Momento"/>
 
-            <img id='foodMenuImgsRightColumn' src="https://i.imgur.com/APzHbSE.jpg?1" alt="Mas!!"/>
 
-          </div>
-        </div>
-      </section>
-    </div>
-  </center>
+      </Col>
+      <Col xs={6} md={4}>
+
+      <img id='foodMenuImgs' src="https://i.imgur.com/ooKm9CF.jpg?1" alt="Tacos de Guisado"/>
+
+
+      </Col>
+      <Col xs={6} md={4}>
+
+      <img id='foodMenuImgs' src="https://i.imgur.com/c1jWM7U.jpg?1" alt="Mas!!"/>
+
+
+      </Col>
+    </Row>
+  </Grid>
+
 );
 
 export default FoodMenu;

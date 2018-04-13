@@ -54,20 +54,12 @@ margin-top: 50px;
   color: black;
 }
 
-/*This is for the FoodMenu component, it will handle all the img sizes*/
+/*This is for the FoodMenu component, it will handle all the img sizes or customization it may need*/
 #foodMenuImgs{
-  width: 405px;
+  width: 100%;
   height: 250px;
   margin-top: 15px;
-  float: left;
 }
-#foodMenuImgsRightColumn{
-  width: 395px;
-  height: 250px;
-  margin-top: 15px;
-  float: left;
-}
-
 
 /*Title of the FoodMenu*/
 #titletitle{
