@@ -2,8 +2,9 @@ import React from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 
-Panelll
-import Panelll from "../components/home/Panell.jsx";
+Footer
+
+import Footer from "../components/home/Footer.jsx";
 import Map from "../components/home/Map.jsx";
 import Video from "../components/home/Video.jsx";
 import Header from "../components/home/Header.jsx";
@@ -42,7 +43,7 @@ class Home extends React.Component {
           <Map />
         </div>
         <div>
-          <Panelll />
+          <Footer />
         </div>
       </div>
     );

@@ -7,6 +7,7 @@ class TypeWriteR2 extends React.Component {
 
   render() {
     return (
+    <div>
       <Grid className="show-grid-AboutUs">
         <Row >
           <Col xs={6} md={4}>
@@ -31,6 +32,8 @@ class TypeWriteR2 extends React.Component {
           </Col>
         </Row>
       </Grid>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br />
+    </div>
     )
   }
 };

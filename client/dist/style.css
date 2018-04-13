@@ -158,6 +158,20 @@ body {
 
 // Centered container element
 */
+
+.containerFooter{
+  background: #211D1B;
+  height: 110px;
+  width: 100%;
+}
+.LetrasDeFooter{
+  color: white;
+}
+
+.content-mainF{
+  padding-top: 2%;
+}
+
 @mixin make-container($gutter: $grid-gutter-width)
 {
   margin-right: auto;
@@ -234,9 +248,10 @@ body {
 /*This is for the TyperWritter component in the Sobre Nostros page*/
 /*/client/src/components/Aboutis/aboutUs.jsx*/
 .show-grid-AboutUs{
-  margin-top: 15%
+  margin-top: 12%
 }
 
 .LaEscritora{
-  margin-top: 13%;
+  margin-top: 11%;
+  font-size: 24px;
 }

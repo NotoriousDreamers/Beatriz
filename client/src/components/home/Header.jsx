@@ -18,7 +18,7 @@ const Header = (props) => (
         <NavItem eventKey={2} href="/catering">
           Banquetes
         </NavItem>
-        <NavItem eventKey={3} href="/revisiones">
+        <NavItem eventKey={3} href="/resenas">
           Resenas
         </NavItem>
         <NavItem eventKey={4} href="/aboutus">
