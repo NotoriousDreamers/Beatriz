@@ -20,6 +20,7 @@ class AboutUs extends React.Component {
           <TypeWriteR2 />
         </div>
         <div>
+        <br /><br />
           <Footer />
         </div>
       </div>
