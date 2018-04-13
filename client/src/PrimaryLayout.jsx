@@ -2,9 +2,10 @@ import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
 import Home from "./pages/Home.jsx";
-import Menu from './pages/Menu.jsx';
+import Menu from "./pages/Menu.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import Catering from "./pages/Catering.jsx";
+import Header from "../src/components/home/Header.jsx";
 
 const PrimaryLayout = ({ match }) => (
   <div className="primary-layout">
@@ -14,6 +15,7 @@ const PrimaryLayout = ({ match }) => (
         <Route  path={`${match.path}catering`} component={Catering} />
         <Route  path={`${match.path}menu`} component={Menu} />
         <Route  path={`${match.path}aboutus`} component={AboutUs} />
+        <Header />
       </Switch>
     </main>
   </div>

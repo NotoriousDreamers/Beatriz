@@ -2,31 +2,30 @@
 #panchito{
   width: 65%;
   height: 10%;
+  margin-top: 15%;
 }
 
 /*This is for the Beatriz img in the typewritter Component all the way at the top*/
 #beatriz{
   width: 65%;
   height: 10%;
+  margin-top: 15%;
 }
 
 /*This is the TacosBeatriz logo in the typewritter Component all the way at the top*/
 #TacosBeatriz{
   width: 100%;
   height: 200px;
-  margin-top: 30px;
-  margin-left: 0px;
 }
 /*This is the Apetisar logo in the typewritter Component all the way at the top*/
 #Apetisar{
 width: 100%;
-height: : 950px;
-margin-top: 50px;
+height: : 100%;
 }
 
 /*This is for the typewriter overall in typewriter.jsx*/
 .show-grid-BettyYPancho{
-  margin-top: 80px;
+  margin-top: -3%;
 }
 
 /*This is for the breadcrumb Component in ./client/src/components/home/Header.jsx  */
