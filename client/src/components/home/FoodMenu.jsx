@@ -25,19 +25,19 @@ const FoodMenu = () => (
     <Row className="foodMenuTop" >
       <Col xs={6} md={4}>
 
-      <img id='foodMenuImgs' src="https://i.imgur.com/HYi5H3V.jpg?1" alt="Sopes"/>
+      <img id='foodMenuImgs' src="https://i.imgur.com/mNzKgZ1.jpg" alt="Sopes"/>
 
 
       </Col>
       <Col xs={6} md={4}>
 
-      <img id='foodMenuImgs' src="https://i.imgur.com/eqSk0UM.jpg?2" alt="Huaraches"/>
+      <img id='foodMenuImgs' src="https://i.imgur.com/ht5xdFu.jpg" alt="Huaraches"/>
 
 
       </Col>
       <Col xs={6} md={4}>
 
-      <img id='foodMenuImgs' src="https://i.imgur.com/AQVCLby.jpg?1" alt="Tortillas Hechas A Mano"/>
+      <img id='foodMenuImgs' src="https://i.imgur.com/qfJ9mMF.jpg" alt="Tortillas Hechas A Mano"/>
 
 
       </Col>
@@ -45,19 +45,19 @@ const FoodMenu = () => (
     <Row className="foodMenuBottom" >
       <Col xs={6} md={4}>
 
-      <img id='foodMenuImgs' src="https://i.imgur.com/hMk0UQO.jpg?1" alt="Jugos Frescos Al Momento"/>
+      <img id='foodMenuImgs' src="https://i.imgur.com/APEjgFm.jpg" alt="Jugos Frescos Al Momento"/>
 
 
       </Col>
       <Col xs={6} md={4}>
 
-      <img id='foodMenuImgs' src="https://i.imgur.com/ooKm9CF.jpg?1" alt="Tacos de Guisado"/>
+      <img id='foodMenuImgs' src="https://i.imgur.com/Ylxdeip.jpg" alt="Tacos de Guisado"/>
 
 
       </Col>
       <Col xs={6} md={4}>
 
-      <img id='foodMenuImgs' src="https://i.imgur.com/c1jWM7U.jpg?1" alt="Mas!!"/>
+      <img id='foodMenuImgs' src="https://i.imgur.com/m5UuCIb.jpg" alt="Mas!!"/>
 
 
       </Col>
