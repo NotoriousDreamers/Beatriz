@@ -6,7 +6,7 @@ const Map = () => (
     <div className="row-1">
       <div className="col-sm-4">
 
-        <center><img id='beatriz' src="https://i.imgur.com/cWEMVV6.png" alt="Beatriz tipa"/></center>
+        <center><img id='cochee' src="https://i.imgur.com/2H6dY6L.png" alt="Beatriz tipa"/></center>
 
       </div>
       <div className="col-sm-4">
