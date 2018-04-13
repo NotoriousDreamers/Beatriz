@@ -57,12 +57,12 @@ class Revisiones extends React.Component{
       <div>
         <br />
         <Header />
-        <h1>Tus experiencias de primera mano realmente ayudan a nuestra clientela. ¡Gracias!</h1>
+        <h1 className="TitulosYHeaders">Tus experiencias de primera mano realmente ayudan a nuestra clientela. ¡Gracias!</h1>
        <AddReviews addReviews={this.addReview}/>
        <ReviewsList list={this.state.list}/>
        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-       <br /><br /><br /><br /><br />
+       <br /><br /><br /><br /><br /><br /><br /><br />
+
        <Footer />
      </div>)
   }

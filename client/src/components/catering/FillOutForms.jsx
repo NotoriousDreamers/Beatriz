@@ -59,26 +59,26 @@ class FillOutForm extends React.Component{
 <center>  Banquetes </center>
   </div>
   <div id='subtitle'>
-  <center>NUESTRO SERVICIO DE BANQUETES </center>
+  <center className="TitulosYHeaders">NUESTRO SERVICIO DE BANQUETES </center>
   </div>
-      <h4>  ADEMAS DE OFRECERLE A NUESTROS CLIENTES NUESTRO EXCELENTES PLATILLOS A LA CARTA, CONTAMOS TAMBIEN CON SERVICIO DE BANQUETES  PARA  CUALQUIER FIESTA 0 EVENTO.</h4><br/>
+      <h4 className="TextosComunes">  ADEMAS DE OFRECERLE A NUESTROS CLIENTES NUESTRO EXCELENTES PLATILLOS A LA CARTA, CONTAMOS TAMBIEN CON SERVICIO DE BANQUETES  PARA  CUALQUIER FIESTA 0 EVENTO.</h4><br/>
 
 
-<h4>PARA SERVICIO A DOMICILIO, FAVOR DE COMUNICARSE A LAS OFICINAS CENTRALES,
+<h4 className="TextosComunes">PARA SERVICIO A DOMICILIO, FAVOR DE COMUNICARSE A LAS OFICINAS CENTRALES,
  TENEMOS EL SERVICIO DE TAQUIZA TRADICIONAL Y EL SERVICIO COMPLETO ; CON MESAS, SILLAS, MESEROS, Y MONTAJE ESPECIAL PARA CADA TIPO DE EVENTO.</h4><br/>
 
-<h4>ESTAMOS SITUADOS EN LA ROMA AUN LADO DEL HOSPITAL DALINDE </h4><br/>
+<h4 className="TextosComunes">ESTAMOS SITUADOS EN LA ROMA AUN LADO DEL HOSPITAL DALINDE </h4><br/>
 </div>
 <div className="col-sm-6">
 
 
     <center>
-      <h4>Para cualquier cotización, duda o sugerencia, favor de llenar la siguiente forma, y nos pondremos en contacto a la brevedad con usted.</h4>
+      <h4 className="TextosComunes">Para cualquier cotización, duda o sugerencia, favor de llenar la siguiente forma, y nos pondremos en contacto a la brevedad con usted.</h4>
           <Grid item xs={6}>
-                  <h3>Nombre Completo:</h3><input onChange={this.inputFullName} value={this.state.fullName}></input><br/>
-                  <h3>Correo Electronico:</h3><input onChange={this.inputEmail} value={this.state.email}></input><br/>
-                  <h3>Numero de Telefono:</h3><input onChange={this.inputPhoneNumber} value={this.state.phoneNumber}></input><br/>
-                  <h3>Mensaje:<br/><textarea onChange={this.inputQuestions} value={this.state.questions}></textarea></h3>
+                  <h3 className="TitulosYHeaders">Nombre Completo:</h3><input onChange={this.inputFullName} value={this.state.fullName}></input><br/>
+                  <h3 className="TitulosYHeaders">Correo Electronico:</h3><input onChange={this.inputEmail} value={this.state.email}></input><br/>
+                  <h3 className="TitulosYHeaders">Numero de Telefono:</h3><input onChange={this.inputPhoneNumber} value={this.state.phoneNumber}></input><br/>
+                  <h3 className="TitulosYHeaders">Mensaje:<br/><textarea onChange={this.inputQuestions} value={this.state.questions}></textarea></h3>
                   <button onClick={this.add} >Enviar</button>
         </Grid>
    </center>
