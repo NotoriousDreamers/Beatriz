@@ -4,7 +4,7 @@ const Map = () => (
 
   <section className="map">
     <div className="row-1">
-      <div className="col-sm-4">
+      <div className="col-sm-4"> 
 
         <center><img id='cochee' src="https://i.imgur.com/2H6dY6L.png" alt="Beatriz tipa"/></center>
 
