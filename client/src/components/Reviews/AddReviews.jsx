@@ -35,10 +35,10 @@ add(){
 }
   render () {
     return (<div>
-      <center> <h2>El titulo de tu reseña</h2>
+      <center> <h2 className="TitulosYHeaders">El titulo de tu reseña</h2>
        <input  id="txtReview" placeholder="  Una palabra que resume tu visita" onChange={this.updateTitle} value={this.state.title} ></input>
       <br />
-      <h2>Tu reseña</h2>
+      <h2 className="TitulosYHeaders">Tu reseña</h2>
        <textarea id="txtReview2" placeholder="  Cuéntale a la gente sobre tu experiencia" onChange={this.updateReviews} value={this.state.reviews} ></textarea>
     <br />
   <Button bsStyle="danger" onClick={this.add}>Agregar Reseña</Button>

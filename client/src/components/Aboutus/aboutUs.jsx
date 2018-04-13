@@ -17,11 +17,11 @@ class TypeWriteR2 extends React.Component {
 
           </Col>
           <Col className="LaEscritora" xs={6} md={4}>
-          <TypeWriter typing={2.0}>
-            The Mexican Revolution (Spanish: Revolución Mexicana) was a major armed struggle c.
-             1910–1920 radically transforming Mexican culture and government. Although recent
-            research has focused on local and regional aspects of the Revolution, it was a
-            "genuinely national revolution".
+          <TypeWriter className="TextosComunes" typing={2.0}>
+            En Tacos Beatriz 1910 se hacen decir los "originales" mencionando a un tal defraudador que trabajó con ellos y ahora tiene su negocio propio, cuando ellos son un completo fiasco!
+
+            Coticé un servicio de alimentos y me dieron precio, condiciones de pago, etc.
+
           </TypeWriter>
           </Col>
           <Col xs={6} md={4}>
