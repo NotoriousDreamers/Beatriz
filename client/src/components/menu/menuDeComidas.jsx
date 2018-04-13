@@ -1,16 +1,18 @@
 import React from 'react';
+import { Grid, Row, Col } from "react-bootstrap";
 
 const Foods = () => (
 
-<div>
-  <section className="menusDeAlimentos">
-    <div className="row-1">
-      <div className="col-md-6">
+
+<Grid className="menusDeAlimentos">
+  <Row className="foodMenuTop" >
+    <Col xs={6} md={6}>
+
         <center><h1>Desayunos</h1></center>
         <center><h4>De 8:00 am a 12:30 pm</h4></center>
         <center><h2>¿Sabes que el desayuno es la comida mas importante del día?</h2></center>
         <center><h3>Jugos</h3></center>
-        <bold><h4>Naranja ó Zanahoria.............................................................................$ 26.00</h4></bold>
+        <bold><h4>Naranja ó Zanahoria..................................................................$ 26.00</h4></bold>
         <center><h3>Jugos Combinados</h3></center>
         <bold><h4>Jugo Energético (piña, apio, nopal y naranja)......................................$ 32.00</h4></bold>
         <bold><h4>Jugo Antigripal (guayaba, piña, naranja, limón y miel).........................$ 32.00</h4></bold>
@@ -170,11 +172,8 @@ const Foods = () => (
           </ol>
 
 
-
-
-
-      </div>
-      <div className="col-md-6">
+    </Col>
+    <Col xs={6} md={6}>
 
         <center><h1>Comidas</h1></center>
         <center><h4>De 1:30 pm en adelante</h4></center>
@@ -308,10 +307,10 @@ const Foods = () => (
         <bold><h4>Capuchino.........................................................................................$ 38.00</h4></bold>
         <bold><h4>Moka.........................................................................................$ 40.00</h4></bold>
         <bold><h4>Té.........................................................................................................$ 28.00</h4></bold>
-      </div>
-    </div>
-  </section>
-</div>
+
+    </Col>
+  </Row>
+</Grid>
 );
 
 export default Foods;
