@@ -62,7 +62,7 @@ class Revisiones extends React.Component{
        <ReviewsList list={this.state.list}/>
        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-       <br /><br /><br />
+       <br /><br /><br /><br /><br />
        <Footer />
      </div>)
   }
