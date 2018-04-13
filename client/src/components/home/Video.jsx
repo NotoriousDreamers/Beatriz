@@ -8,8 +8,7 @@ var Video = () => (
     <Row className="show-grid-video">
 
 
-      <iframe src="//www.youtube.com/embed/L2QTtdeL3dE?rel=0"  allowfullscreen></iframe>
-
+      <iframe src="//www.youtube.com/embed/uiHF6HIRtjg?rel=0&amp;showinfo=0"  allowfullscreen></iframe>
 
     </Row>
   </Grid>

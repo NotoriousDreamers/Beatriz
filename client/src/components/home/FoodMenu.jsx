@@ -4,6 +4,24 @@ import { Grid, Row, Col } from "react-bootstrap";
 const FoodMenu = () => (
 
   <Grid className="show-grid-FoodMenu">
+  <Row className="foodMenuTitle" >
+    <Col xs={6} md={2}>
+
+
+
+    </Col>
+    <Col xs={6} md={8}>
+
+    <center><h1>Las especialidades de la casa</h1></center>
+
+
+    </Col>
+    <Col xs={6} md={2}>
+
+
+
+    </Col>
+  </Row>
     <Row className="foodMenuTop" >
       <Col xs={6} md={4}>
 
