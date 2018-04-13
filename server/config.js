@@ -1,17 +1,24 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const route = require("./routes");
-const path = require('path');
+var express = require("express");
+var bodyParser = require("body-parser");
+var route = require("./routes");
+var path = require('path');
+var database = require("../database/index.js");
 
-const app = express();
+var app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(__dirname + "/../client/dist"));
 
+app.post("/reviews", route.postReview)
+app.get("/reviews", route.getReview)
+
 app.get('*', (req, res) => {
- res.sendFile(path.resolve(__dirname + '/../client/dist/index.html'));
+  res.sendFile(path.resolve(__dirname + '/../client/dist/index.html'));
 })
+
+
+
 
 module.exports = app;
