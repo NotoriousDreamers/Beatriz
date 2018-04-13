@@ -29,3 +29,17 @@ CREATE TABLE packages(
   INSERT INTO packages (description, price) VALUES ('Salón con pantalla para videos; Desayuno primavera $198.00 por persona.','$198.00');
   INSERT INTO packages (description, price) VALUES ('Salón con pantalla para videos; Taquiza completa $ 235.00 con el lugar.','$235.00');
   INSERT INTO packages (description, price) VALUES ('Salón con pantalla para videos; Parrillada completa $ 245.00 con el lugar $ 270.00 parrillada especial, $ 290.00 cortes finos.','$270.00')
+
+
+  CREATE TABLE reviews (
+    id int NOT NULL AUTO_INCREMENT,
+    title varchar(50) NOT NULL,
+    reviews varchar(150) NOT NULL,
+    PRIMARY KEY (ID)
+  );
+
+  /*  Execute this file from the command line by typing:
+   *    mysql -u root < schema.sql
+   *  to create the database and the tables.*/
+
+  INSERT INTO reviews (title, reviews) VALUES ('Maravilloso!', 'La comida esta fabulosa unas de las mejores que e probado');

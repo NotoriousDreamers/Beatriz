@@ -1,25 +1,35 @@
 /*This is for the Panchito img in the typewritter Component all the way at the top*/
 #panchito{
-  width: 75%;
-  height: 50%;
+  width: 65%;
+  height: 10%;
+  margin-top: 15%;
 }
 
 /*This is for the Beatriz img in the typewritter Component all the way at the top*/
 #beatriz{
-  width: 75%;
-  height: 50%;
+  width: 65%;
+  height: 10%;
+  margin-top: 15%;
 }
 
 /*This is the TacosBeatriz logo in the typewritter Component all the way at the top*/
 #TacosBeatriz{
-  width: 450px;
-  height: 250px;
-  margin-top: 115px;
+  width: 100%;
+  height: 200px;
+}
+/*This is the Apetisar logo in the typewritter Component all the way at the top*/
+#Apetisar{
+width: 100%;
+height: : 100%;
+}
+
+/*This is for the typewriter overall in typewriter.jsx*/
+.show-grid-BettyYPancho{
 }
 
 /*This is for the breadcrumb Component in ./client/src/components/home/Header.jsx  */
 #Nav{
-  font-family: 'Lobster', cursive;
+  font-family: 'Bree Serif', serif;
   font-size: 40px;
   text-align:center;
   width: 0px;
@@ -42,20 +52,12 @@
   color: black;
 }
 
-/*This is for the FoodMenu component, it will handle all the img sizes*/
+/*This is for the FoodMenu component, it will handle all the img sizes or customization it may need*/
 #foodMenuImgs{
-  width: 405px;
+  width: 100%;
   height: 250px;
-  margin-top: 15px;
-  float: left;
+  margin-top: 7%;
 }
-#foodMenuImgsRightColumn{
-  width: 395px;
-  height: 250px;
-  margin-top: 15px;
-  float: left;
-}
-
 
 /*Title of the FoodMenu*/
 #titletitle{
@@ -71,6 +73,8 @@
 #menuInteractivo{
   width: 700px;
 }
+
+/* This is for the bots position*/
 .faq {
 
 }
@@ -93,57 +97,203 @@
 	display:block;
 }
 
-/*This is for the social media icons*/
+/*This is for the video in the home page so it can be device responsive*/
+/*client/src/components/home/Video.jsx*/
+.show-grid-video{
+  position: relative;
+padding-bottom: 40.25%; /* 16:9 */
+padding-top: 25px;
+height: 0;
+margin-top: 10%;
+margin-bottom: 8%;
 
-.icon-bar {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+}
+.show-grid-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60%;
+	height: 80%;
+  margin-left: 20%;
+}
+.VideoTitle{
+  margin-top: 5%;
+  margin-bottom: -8%;
 }
 
-.icon-bar a {
-  display: block;
+/*This is for the text of the full menu in the Menu page*/
+/*client/src/components/menu/menuDeComida.jsx*/
+.menusDeAlimentos{
+  margin-top: 7%;
+}
+
+/*This is for the Footer in Footer.jsx to see how effective it reacts to different sizes*/
+$grid-gutter-width: 1.5rem;
+$grid-columns: 12;
+
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+body {
+  font-size: 1rem;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+.content-main,
+.content-secondary {
+  background: #eee;
+  line-height: 100px;
   text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 20px;
+  border: 1px solid #ddd;
 }
 
-.icon-bar a:hover {
-    background-color: #000;
-}
+        /*DO NOT TOUCH NOR MODIFY FROM HERE TO THE OTHER COMMENT BELOW*/
+/*This is for the Footer in all the pages, it manages how it adjusts to different devices.*/
+/*/client/src/components/home/Footer.jsx*/
+/*
+// Grid system
+//
+// Generate semantic grid columns with these mixins.
 
-.facebook {
-  background: #3B5998;
-  color: white;
-}
+// Centered container element
+*/
 
-.twitter {
-  background: #55ACEE;
-  color: white;
+.containerFooter{
+  background: #211D1B;
+  height: 110px;
+  width: 100%;
 }
-
-.google {
-  background: #dd4b39;
+.LetrasDeFooter{
   color: white;
 }
 
-.linkedin {
-  background: #007bb5;
-  color: white;
+.content-mainF{
+  padding-top: 2%;
 }
 
-.youtube {
-  background: #bb0000;
-  color: white;
+@mixin make-container($gutter: $grid-gutter-width)
+{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left:  ($gutter / 2);
+  padding-right: ($gutter / 2);
 }
 
-.content {
-  margin-left: 75px;
-  font-size: 30px;
+/*// Creates a wrapper for a series of columns*/
+@mixin make-row($gutter: $grid-gutter-width)
+{
+  margin-left:  ($gutter / -2);
+  margin-right: ($gutter / -2);
+}
+
+@mixin make-col($gutter: $grid-gutter-width)
+{
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-left:  ($gutter / 2);
+  padding-right: ($gutter / 2);
+}
+
+@mixin make-col-span($columns)
+{
+  width: percentage(($columns / $grid-columns));
+}
+@mixin make-col-offset($columns)
+{
+  margin-left: percentage(($columns / $grid-columns));
+}
+@mixin make-col-push($columns)
+{
+  left: percentage(($columns / $grid-columns));
+}
+@mixin make-col-pull($columns)
+{
+  right: percentage(($columns / $grid-columns));
+}
+
+
+.container {
+  @include make-container();
+}
+
+.row {
+  @include make-row();
+}
+
+.content-main {
+  @include make-col();
+
+  @media (max-width: 32em) {
+    @include make-col-span(6);
+  }
+
+  @media (min-width: 32.1em) {
+    @include make-col-span(8);
+  }
+}
+          /*DO NOT TOUCH NOR MODIFY FROM HERE TO THE OTHER COMMENT ABOVE*/
+
+
+
+/*This is for the Social Media Icons in the Footer*/
+/*/client/src/components/home/Footer.jsx*/
+#SocialMediaIcons{
+  width: 4%;
+  height: 4%;
+  margin: 5px;
+}
+
+/*This is for the TyperWritter component in the Sobre Nostros page*/
+/*/client/src/components/Aboutis/aboutUs.jsx*/
+.show-grid-AboutUs{
+  margin-top: 12%
+}
+
+.LaEscritora{
+  margin-top: 11%;
+  font-size: 24px;
+}
+.reviewItems {
+  background-color:transparent !important;
+        border-color:transparent;
+        background-image:url("Hasenda.jpg");
+        box-shadow:none;
+}
+
+.textReview {1
+     font-size:18pt;
+     height:420px;
+     width:200px;
+}
+
+
+/*Aqui se controla todos los titulos y headers de toda la applicacion*/
+.TitulosYHeaders{
+  font-family: 'Shrikhand', cursive;
+}
+
+/*Aqui se controla todo el tedxto normal de toda la applicacion*/
+.TextosComunes{
+  font-family: 'Muli', sans-serif;
+}
+
+/*This is for the maps grid, it will control the overall component*/
+/*/client/src/components/home/Map.jsx*/
+.show-grid-mapa{
+  margin-top: -50px;
+}
+
+.MapTitle{
+  margin-top: -5%;
+  margin-bottom: 2%;
 }
 
 

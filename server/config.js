@@ -14,11 +14,11 @@ app.use(express.static(__dirname + "/../client/dist"));
 app.post("/email", route.postInfo)
 app.get('/email', route.retreiveInfo)
 app.get('/packages', route.getPackages)
+app.post("/reviews", route.postReview)
+app.get("/reviews", route.getReview)
 app.get('*', (req, res) => {
  res.sendFile(path.resolve(__dirname + '/../client/dist/index.html'));
 
-})
-
-
+});
 
 module.exports = app;

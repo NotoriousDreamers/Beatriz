@@ -2,11 +2,15 @@ import React from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 
-import Header from "../components/home/Header.jsx";
-import TypeWriteR from "../components/home/typewriter.jsx";
-import FoodMenu from "../components/home/FoodMenu.jsx";
+Footer
+
+import Footer from "../components/home/Footer.jsx";
+import Map from "../components/home/Map.jsx";
 import Video from "../components/home/Video.jsx";
+import Header from "../components/home/Header.jsx";
+import FoodMenu from "../components/home/FoodMenu.jsx";
 import Carousel from "../components/home/Carousel.jsx";
+import TypeWriteR from "../components/home/typewriter.jsx";
 
 class Home extends React.Component {
   constructor(props) {
@@ -33,12 +37,13 @@ class Home extends React.Component {
         <div>
         </div>
         <div>
-          <Carousel />
-        </div>
-            <br/>
-            <br/>
-        <div>
           <center><Video /></center>
+        </div>
+        <div>
+          <Map />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     );
