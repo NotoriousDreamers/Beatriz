@@ -5,7 +5,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   database: "beatriz",
-  password: "Holacode"
+  password: ""
 });
 
 var selectAll = function() {

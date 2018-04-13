@@ -20,6 +20,7 @@ class Menu extends React.Component {
           <Foods />
         </div>
         <div>
+        <br /><br /><br />
           <Footer />
         </div>
       </div>
