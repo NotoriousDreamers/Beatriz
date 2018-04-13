@@ -12,7 +12,7 @@ const FoodMenu = () => (
     </Col>
     <Col xs={6} md={8}>
 
-    <center><h1>Las especialidades de la casa</h1></center>
+    <center><h1 className="TitulosYHeaders">Las especialidades de la casa</h1></center>
 
 
     </Col>

@@ -267,3 +267,20 @@ body {
      height:420px;
      width:200px;
 }
+
+
+/*Aqui se controla todos los titulos y headers de toda la applicacion*/
+.TitulosYHeaders{
+  font-family: 'Shrikhand', cursive;
+}
+
+/*Aqui se controla todo el tedxto normal de toda la applicacion*/
+.TextosComunes{
+  font-family: 'Muli', sans-serif;
+}
+
+/*This is for the maps grid, it will control the overall component*/
+/*/client/src/components/home/Map.jsx*/
+.show-grid-mapa{
+  margin-top: -50px;
+}
