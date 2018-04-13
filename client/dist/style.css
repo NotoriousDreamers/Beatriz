@@ -101,18 +101,20 @@ height: : 100%;
 /*client/src/components/home/Video.jsx*/
 .show-grid-video{
   position: relative;
-padding-bottom: 56.25%; /* 16:9 */
+padding-bottom: 40.25%; /* 16:9 */
 padding-top: 25px;
 height: 0;
 margin-top: 10%;
-margin-bottom: 10%;
+margin-bottom: 8%;
+
 }
 .show-grid-video iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	width: 60%;
+	height: 80%;
+  margin-left: 20%;
 }
 
 /*This is for the text of the full menu in the Menu page*/
