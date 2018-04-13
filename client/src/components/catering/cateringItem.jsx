@@ -1,36 +1,22 @@
 import React from 'react';
 
+import {Table,thead,tr,th,tbody,td} from 'react-bootstrap'
 const CateringItem =(props)=>(
   <div>
+    <Table responsive>
 
-  <form>
+      <tbody>
+        <tr>
+          <td><h3>{props.item.id}</h3></td>
+          <td><h3 className='name'>{props.item.fullName}</h3></td>
+          <td><h3 className='phone'>{props.item.phoneNumber}</h3></td>
+          <td><h3 className='email'>{props.item.email}</h3></td>
+          <td><h3 className='questions'>{props.item.questions}</h3></td>
+      </tr>
+    </tbody>
+    </Table>
 
-    <span><h1>{props.question.questions}</h1></span>
-  <div className="radio">
-  <label>
-  <input type="radio" value="option1"/>
-             <h2>{props.question.answer1}</h2>
-            </label>
-          </div>
-          <div className="radio">
-            <label>
-              <input type="radio" value="option2" />
-              <h2>{props.question.answer2}</h2>
-            </label>
-          </div>
-          <div className="radio">
-            <label>
-              <input type="radio" value="option3" />
-              <h2>{props.question.answer3}</h2>
-            </label>
-          </div>
-          <div className="radio">
-            <label>
-              <input type="radio" value="option3" />
-              <h2>{props.question.answer4} </h2>
-            </label>
-          </div>
-        </form>
-    </div>
+
+  </div>
 )
 export default CateringItem;

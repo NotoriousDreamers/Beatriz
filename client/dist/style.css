@@ -295,3 +295,49 @@ body {
   margin-top: -5%;
   margin-bottom: 2%;
 }
+
+
+.phone{
+position:absolute;
+left: 380px;
+border-left: 3px;
+}
+.email{
+  position:absolute;
+  left:680px;
+}
+.questions{
+  position:absolute;
+  left: 975px;
+  border-bottom: .1px;
+}
+.name{
+  position:absolute;
+  left:60px;
+}
+/* this is for the catering Component */
+#catering{
+  color:black;
+  font-size: 30px;
+}
+/*banquete font and style in catering component*/
+#Banquetes{
+  color:black;
+  font-family:Tangerine;
+  font-size: 150px
+}
+/*subtitle*/
+#subtitle{
+  color:black;
+  font-size: :100;
+  font-family:fantasy;
+}
+textarea{
+  width:390px;
+  height: 200px;
+}
+
+#cards{
+  width: 10px;
+}
+.
