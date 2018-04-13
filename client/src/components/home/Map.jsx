@@ -1,12 +1,13 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 
 const Map = () => (
 
   <section className="map">
     <div className="row-1">
-      <div className="col-sm-4">   
+      <div className="col-sm-4">
 
-        <center><img id='cochee' src="https://i.imgur.com/2H6dY6L.png" alt="Beatriz tipa"/></center>
+      <Image src="https://i.imgur.com/2H6dY6L.png" responsive />;
 
       </div>
       <div className="col-sm-4">

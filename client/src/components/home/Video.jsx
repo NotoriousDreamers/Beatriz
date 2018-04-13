@@ -1,28 +1,18 @@
 import React from 'react';
+import { Grid, Row, Col } from "react-bootstrap";
 
 var Video = () => (
 
-  <section className="videoo">
-    <div className="row-1">
-      <div className="col-sm-4">
+
+  <Grid>
+    <Row className="show-grid-video">
 
 
-      </div>
-      <div className="col-sm-4">
-        <div>
-
-        <iframe width='600' height='450' src='https://www.youtube.com/embed/uiHF6HIRtjg?rel=0' allowFullScreen></iframe>
+      <iframe src="//www.youtube.com/embed/L2QTtdeL3dE?rel=0"  allowfullscreen></iframe>
 
 
-        </div>
-      </div>
-      <div className="col-sm-4">
-
-
-      </div>
-    </div>
-  </section>
-
+    </Row>
+  </Grid>
 );
 
 export default Video;
