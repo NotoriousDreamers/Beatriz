@@ -28,7 +28,7 @@ CREATE TABLE packages(
   INSERT INTO packages (description, price) VALUES ('Salón con pantalla para videos;  solo con mesas, sillas, meseros, café y agua, galletas, 5 canapés  $150.00 por persona.','$150.00');
   INSERT INTO packages (description, price) VALUES ('Salón con pantalla para videos; Desayuno primavera $198.00 por persona.','$198.00');
   INSERT INTO packages (description, price) VALUES ('Salón con pantalla para videos; Taquiza completa $ 235.00 con el lugar.','$235.00');
-  INSERT INTO packages (description, price) VALUES ('Salón con pantalla para videos; Parrillada completa $ 245.00 con el lugar $ 270.00 parrillada especial, $ 290.00 cortes finos.','$270.00')
+  INSERT INTO packages (description, price) VALUES ('Salón con pantalla para videos; Parrillada completa $ 245.00 con el lugar $ 270.00 parrillada especial, $ 290.00 cortes finos.','$270.00');
 
 
   CREATE TABLE reviews (

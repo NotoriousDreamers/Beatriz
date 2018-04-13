@@ -307,7 +307,7 @@ border-left: 3px;
   left:680px;
 }
 .questions{
-  position:fixed;
+  position:absolute;
   left: 975px;
   border-bottom: .1px;
 }

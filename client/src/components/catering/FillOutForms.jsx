@@ -52,14 +52,6 @@ class FillOutForm extends React.Component{
   render(){
     return(
 
-
-
-
-
-
-
-
-
 <section id="catering">
 <div className="row-1">
 <div className="col-sm-6">
@@ -96,8 +88,8 @@ class FillOutForm extends React.Component{
 </div>
 </section>
 
-  )
+    )
   }
-}
+};
 
-export default FillOutForm
+export default FillOutForm;

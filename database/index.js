@@ -3,7 +3,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   database: "beatriz",
-  password: ""
+  password: "Holacode"
 });
 
 const postInfo = function(fullName,email, phoneNumber, questions) {
@@ -16,7 +16,9 @@ connection.query('INSERT INTO info (fullName, email, phoneNumber,  questions) VA
    }
    return resolve(data);
    console.log('posted');
-
+ })
+})
+}
 
 var selectAll = function() {
 return new Promise((resolve, reject) =>{
@@ -62,7 +64,7 @@ const getPackages = function(){
    return resolve(data)
     })
   })
-}
+};
 
 module.exports.postInfo= postInfo;
 module.exports.retreiveInfo=retreiveInfo;

@@ -24,6 +24,6 @@ const PrimaryLayout = ({ match }) => (
       </Switch>
     </main>
   </div>
-)
+);
 
 export default PrimaryLayout;

@@ -1,9 +1,8 @@
 import React from "react";
-import $ from 'jquery'
-import CateringList from '../components/catering/cateringList.jsx'
-import Header from '../components/home/Header.jsx'
+import $ from 'jquery';
+import CateringList from '../components/catering/cateringList.jsx';
+import Header from '../components/home/Header.jsx';
 import Footer from "../components/home/Footer.jsx";
-import Header from '../components/home/Header.jsx'
 
 import FillOutForm from'../components/catering/FillOutForms.jsx'
 class Catering extends React.Component {
@@ -45,6 +44,7 @@ render(){
   return (
   <div>
     <Header />
+    <br /><br />
     <FillOutForm addInfo={this.addInfo}  />
   </div>
     )
