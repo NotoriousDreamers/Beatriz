@@ -15,7 +15,6 @@
   width: 450px;
   height: 250px;
   margin-top: 115px;
-  margin-right: 1000px;
 }
 
 /*This is for the breadcrumb Component in ./client/src/components/home/Header.jsx  */
@@ -82,7 +81,7 @@
 
 .faq ul li {
 	display:block;
-	float:left;
+	float:right;
 	padding:5px;
 }
 
@@ -146,3 +145,49 @@
   margin-left: 75px;
   font-size: 30px;
 }
+
+
+.phone{
+position:absolute;
+left: 380px;
+border-left: 3px;
+}
+.email{
+  position:absolute;
+  left:680px;
+}
+.questions{
+  position:fixed;
+  left: 975px;
+  border-bottom: .1px;
+}
+.name{
+  position:absolute;
+  left:60px;
+}
+/* this is for the catering Component */
+#catering{
+  color:black;
+  font-size: 30px;
+}
+/*banquete font and style in catering component*/
+#Banquetes{
+  color:black;
+  font-family:Tangerine;
+  font-size: 150px
+}
+/*subtitle*/
+#subtitle{
+  color:black;
+  font-size: :100;
+  font-family:fantasy;
+}
+textarea{
+  width:390px;
+  height: 200px;
+}
+
+#cards{
+  width: 10px;
+}
+.

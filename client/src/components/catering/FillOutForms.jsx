@@ -1,19 +1,21 @@
 import React from 'react';
+import Paper from 'material-ui/Paper';
+import Grid from 'material-ui/Grid';
 
 class FillOutForm extends React.Component{
   constructor(props){
     super(props)
    this.state={
     fullName:'',
-    phoneNumber:'',
     email:'',
+    phoneNumber:'',
     questions:''
   }
 
   this.add=this.add.bind(this);
   this.inputFullName=this.inputFullName.bind(this);
   this.inputEmail=this.inputEmail.bind(this);
-  this.inputPhoneNumber=this.inputEmail.bind(this);
+  this.inputPhoneNumber=this.inputPhoneNumber.bind(this);
   this.inputQuestions=this.inputQuestions.bind(this);
   }
   inputFullName(e){
@@ -33,8 +35,6 @@ class FillOutForm extends React.Component{
     })
   }
 
-
-
   inputQuestions(e){
     this.setState({
       questions:e.target.value
@@ -51,13 +51,52 @@ class FillOutForm extends React.Component{
   }
   render(){
     return(
-      <div>
-    <h3>Nombre Completo</h3>:<input onChange={this.inputFullName} value={this.state.fullName}></input><br/>
-    <h3>Correo Electronico</h3>:<input onChange={this.inputEmail} value={this.state.email}></input><br/>
-    <h3>Numero de Telefono</h3>:<input onChange={this.inputPhoneNumber} value={this.state.phoneNumber}></input><br/>
-    <h3>Preguntas o commentarios: <textarea onChange={this.inputQuestions} value={this.state.questions}></textarea></h3><br/>
-    <button onClick={this.add} >Enviar</button>
-  </div>)
+
+
+
+
+
+
+
+
+
+<section id="catering">
+<div className="row-1">
+<div className="col-sm-6">
+  <div id='Banquetes'>
+<center>  Banquetes </center>
+  </div>
+  <div id='subtitle'>
+  <center>NUESTRO SERVICIO DE BANQUETES </center>
+  </div>
+      <h4>  ADEMAS DE OFRECERLE A NUESTROS CLIENTES NUESTRO EXCELENTES PLATILLOS A LA CARTA, CONTAMOS TAMBIEN CON SERVICIO DE BANQUETES  PARA  CUALQUIER FIESTA 0 EVENTO.</h4><br/>
+
+
+<h4>PARA SERVICIO A DOMICILIO, FAVOR DE COMUNICARSE A LAS OFICINAS CENTRALES,
+ TENEMOS EL SERVICIO DE TAQUIZA TRADICIONAL Y EL SERVICIO COMPLETO ; CON MESAS, SILLAS, MESEROS, Y MONTAJE ESPECIAL PARA CADA TIPO DE EVENTO.</h4><br/>
+
+<h4>ESTAMOS SITUADOS EN LA ROMA AUN LADO DEL HOSPITAL DALINDE </h4><br/>
+</div>
+<div className="col-sm-6">
+
+
+    <center>
+      <h4>Para cualquier cotización, duda o sugerencia, favor de llenar la siguiente forma, y nos pondremos en contacto a la brevedad con usted.</h4>
+          <Grid item xs={6}>
+                  <h3>Nombre Completo:</h3><input onChange={this.inputFullName} value={this.state.fullName}></input><br/>
+                  <h3>Correo Electronico:</h3><input onChange={this.inputEmail} value={this.state.email}></input><br/>
+                  <h3>Numero de Telefono:</h3><input onChange={this.inputPhoneNumber} value={this.state.phoneNumber}></input><br/>
+                  <h3>Mensaje:<br/><textarea onChange={this.inputQuestions} value={this.state.questions}></textarea></h3>
+                  <button onClick={this.add} >Enviar</button>
+        </Grid>
+   </center>
+
+</div>
+
+</div>
+</section>
+
+  )
   }
 }
 

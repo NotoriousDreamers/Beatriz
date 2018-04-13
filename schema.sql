@@ -3,10 +3,10 @@ CREATE DATABASE beatriz;
 USE beatriz;
 CREATE TABLE info(
   id int NOT NULL AUTO_INCREMENT,
-  fullName varchar(250) NOT NULL,
-  email varchar(100) NOT NULL,
-  phoneNumber varchar(250) NOT NULL,
-  questions varchar(250) NOT NULL,
+  fullName text,
+  email text,
+  phoneNumber text,
+  questions text,
   PRIMARY KEY (ID)
 );
 /*  Execute this file from the command line by typing:

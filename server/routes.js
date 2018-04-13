@@ -1,5 +1,5 @@
 const db = require('../database/index.js')
-const url= require('url');
+
 const path = require('path');
 
 
@@ -9,24 +9,24 @@ exports.postInfo = (req, res) => {
   let fullName = req.body.fullName;
   let email =req.body.email
   let phoneNumber =req.body.phoneNumber;
-
- let questions=req.body.questions
+  let questions=req.body.questions
+  console.log(db.postInfo)
   db.postInfo(fullName,email,phoneNumber,questions)
   .then(data => {
     res.status(200).send(data)
+    console.log('yy');
   })
   .catch(err => { console.log(err) })
+
 };
 
-exports.retreiveInfo =(req,res)=>{
-  Promise.all([
-    db.retreiveInfo()
-  ])
-  .then(data =>{
-    res.status(200).json(data)
-  })
-  .catch(err => {console.log(err)})
-}
+exports.retreiveInfo = (req, res) => {
+  db.retreiveInfo()
+    .then(data => {
+      res.status(200).send(data)
+    })
+    .catch(err => { console.log(err) })
+};
 exports.getPackages=(req,res)=>{
   Promise.all([
     db.getPackages()

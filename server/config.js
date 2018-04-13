@@ -16,6 +16,7 @@ app.get('/email', route.retreiveInfo)
 app.get('/packages', route.getPackages)
 app.get('*', (req, res) => {
  res.sendFile(path.resolve(__dirname + '/../client/dist/index.html'));
+
 })
 
 

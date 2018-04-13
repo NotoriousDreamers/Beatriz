@@ -7,33 +7,16 @@ class formSubmission extends React.Component{
     this.state={
       info:[]
     }
-  this.addInfo=this.addInfo.bind(this);
+
   this.getInfo=this.getInfo.bind(this);
   }
-
-  addInfo(fullName,phoneNumber,email,questions) {
-  $.ajax({
-    method:"POST",
-    url:"/email",
-    contentType:'application/json',
-    data: JSON.stringify({
-      fullName:fullName,
-      email:email,
-      phoneNumber:phoneNumber,
-      questions:questions
-    })
-  }).done(() => {
-      this.getInfo();
-    });
-  }
-
-
-  getInfo(){
+   getInfo(){
   $.ajax({
     url: '/email',
     method: 'GET',
-    success: (results) => {
-      this.setState({info:results[0]});
+    success: (data) => {
+
+      this.setState({info:data});
     },
     error: (xhr, err) => {
       console.log('err', err);
@@ -42,13 +25,16 @@ class formSubmission extends React.Component{
   }
 
   componentDidMount() {
+    setTimeout(function() {
+      location.reload();
+},35000);
   this.getInfo();
   }
   render(){
     return(<div>
 
       <CateringList info={this.state.info}/>
-
+       {console.log(this.state.info)}
     </div>)
   }
 }
