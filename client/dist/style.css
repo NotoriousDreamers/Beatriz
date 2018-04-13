@@ -82,7 +82,7 @@
 
 .faq ul li {
 	display:block;
-	float:left;
+	float:right;
 	padding:5px;
 }
 
@@ -145,4 +145,16 @@
 .content {
   margin-left: 75px;
   font-size: 30px;
+}
+.reviewItems {
+  background-color:transparent !important;
+        border-color:transparent;
+        background-image:url("Hasenda.jpg");
+        box-shadow:none;
+}
+
+.textReview {
+     font-size:18pt;
+     height:420px;
+     width:200px;
 }
