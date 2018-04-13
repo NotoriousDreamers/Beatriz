@@ -7,7 +7,7 @@ const Map = () => (
     <div className="row-1">
       <div className="col-sm-4">
 
-      <Image src="https://i.imgur.com/2H6dY6L.png" responsive />;
+      <Image id="AquiALosLados" src="https://i.imgur.com/2H6dY6L.png" alt="cochesito" responsive />;
 
       </div>
       <div className="col-sm-4">
@@ -20,7 +20,7 @@ const Map = () => (
       </div>
       <div className="col-sm-4">
 
-        <center><img id='panchito' src="https://i.imgur.com/TDsMveO.png" alt="Pancho tipo"/></center>
+      <Image id="AquiALosLados" src="https://i.imgur.com/TDsMveO.png" alt="Pancho tipo" responsive />;
 
       </div>
     </div>

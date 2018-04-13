@@ -3,7 +3,7 @@ import {Nav, Navbar, NavItem, MenuItem } from 'react-bootstrap';
 
 
 const Header = (props) => (
-  <Navbar inverse collapseOnSelect>
+  <Navbar fixedTop={true} inverse collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
         <a href="/">Tacos Beatriz <small id="LaRoma">La Roma</small></a>
