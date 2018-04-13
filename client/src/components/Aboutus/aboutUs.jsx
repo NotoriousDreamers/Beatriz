@@ -17,7 +17,7 @@ class TypeWriteR2 extends React.Component {
           </div>
           <div className="col-md-4">
             <div>
-              <TypeWriter typing={0.9}>
+              <TypeWriter typing={2.0}>
                 The Mexican Revolution (Spanish: Revolución Mexicana) was a major armed struggle c.
                  1910–1920 radically transforming Mexican culture and government. Although recent
                 research has focused on local and regional aspects of the Revolution, it was a

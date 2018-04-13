@@ -5,7 +5,7 @@ const Foods = () => (
 <div>
   <section className="menusDeAlimentos">
     <div className="row-1">
-      <div className="col-md-6">
+      <div className="col-sm-6">
         <center><h1>Desayunos</h1></center>
         <center><h4>De 8:00 am a 12:30 pm</h4></center>
         <center><h2>¿Sabes que el desayuno es la comida mas importante del día?</h2></center>
@@ -170,11 +170,8 @@ const Foods = () => (
           </ol>
 
 
-
-
-
       </div>
-      <div className="col-md-6">
+      <div className="col-sm-6">
 
         <center><h1>Comidas</h1></center>
         <center><h4>De 1:30 pm en adelante</h4></center>

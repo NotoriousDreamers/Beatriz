@@ -5,7 +5,7 @@ import {Nav,Navbar,NavItem,NavDropdown,MenuItem} from 'react-bootstrap';
 const Header = (props) => (
   <section className="headerRow">
     <div className="row-1">
-      <div className="col-md-12">
+      <div className="col-sm-12">
 
             <div id="Nav">
               <Navbar>
