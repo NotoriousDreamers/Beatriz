@@ -56,7 +56,7 @@ height: : 100%;
 #foodMenuImgs{
   width: 100%;
   height: 250px;
-  margin-top: 15px;
+  margin-top: 7%;
 }
 
 /*Title of the FoodMenu*/
@@ -101,18 +101,24 @@ height: : 100%;
 /*client/src/components/home/Video.jsx*/
 .show-grid-video{
   position: relative;
-padding-bottom: 56.25%; /* 16:9 */
+padding-bottom: 40.25%; /* 16:9 */
 padding-top: 25px;
 height: 0;
 margin-top: 10%;
-margin-bottom: 10%;
+margin-bottom: 8%;
+
 }
 .show-grid-video iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	width: 60%;
+	height: 80%;
+  margin-left: 20%;
+}
+.VideoTitle{
+  margin-top: 5%;
+  margin-bottom: -8%;
 }
 
 /*This is for the text of the full menu in the Menu page*/
@@ -278,3 +284,71 @@ body {
   width:400px;
 
 }
+
+
+/*Aqui se controla todos los titulos y headers de toda la applicacion*/
+.TitulosYHeaders{
+  font-family: 'Shrikhand', cursive;
+}
+
+/*Aqui se controla todo el tedxto normal de toda la applicacion*/
+.TextosComunes{
+  font-family: 'Muli', sans-serif;
+}
+
+/*This is for the maps grid, it will control the overall component*/
+/*/client/src/components/home/Map.jsx*/
+.show-grid-mapa{
+  margin-top: -50px;
+}
+
+.MapTitle{
+  margin-top: -5%;
+  margin-bottom: 2%;
+}
+
+
+.phone{
+position:absolute;
+left: 380px;
+border-left: 3px;
+}
+.email{
+  position:absolute;
+  left:680px;
+}
+.questions{
+  position:absolute;
+  left: 975px;
+  border-bottom: .1px;
+}
+.name{
+  position:absolute;
+  left:60px;
+}
+/* this is for the catering Component */
+#catering{
+  color:black;
+  font-size: 30px;
+}
+/*banquete font and style in catering component*/
+#Banquetes{
+  color:black;
+  font-family:Tangerine;
+  font-size: 150px
+}
+/*subtitle*/
+#subtitle{
+  color:black;
+  font-size: :100;
+  font-family:fantasy;
+}
+textarea{
+  width:390px;
+  height: 200px;
+}
+
+#cards{
+  width: 10px;
+}
+.

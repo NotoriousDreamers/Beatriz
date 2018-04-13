@@ -28,4 +28,5 @@ const Header = (props) => (
     </Navbar.Collapse>
   </Navbar>
 );
+
 export default Header;
