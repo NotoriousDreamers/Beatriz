@@ -5,6 +5,24 @@ import { Image, Button, Col, Grid, Row, Well, Nav, Navbar, NavItem, MenuItem, Pa
 const Map = () => (
 <div>
   <Grid className="show-grid-mapa">
+  <Row className="MapTitle" >
+    <Col xs={6} md={2}>
+
+
+
+    </Col>
+    <Col xs={6} md={8}>
+
+    <center><h1 className="TitulosYHeaders">Conocenos!</h1></center>
+
+
+    </Col>
+    <Col xs={6} md={2}>
+
+
+
+    </Col>
+  </Row>
     <Row >
       <Col xs={6} md={6}>
 

@@ -116,6 +116,10 @@ margin-bottom: 8%;
 	height: 80%;
   margin-left: 20%;
 }
+.VideoTitle{
+  margin-top: 5%;
+  margin-bottom: -8%;
+}
 
 /*This is for the text of the full menu in the Menu page*/
 /*client/src/components/menu/menuDeComida.jsx*/
@@ -264,7 +268,7 @@ body {
         box-shadow:none;
 }
 
-.textReview {
+.textReview {1
      font-size:18pt;
      height:420px;
      width:200px;
@@ -285,4 +289,9 @@ body {
 /*/client/src/components/home/Map.jsx*/
 .show-grid-mapa{
   margin-top: -50px;
+}
+
+.MapTitle{
+  margin-top: -5%;
+  margin-bottom: 2%;
 }
