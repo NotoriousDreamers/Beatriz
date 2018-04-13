@@ -1,27 +1,32 @@
 /*This is for the Panchito img in the typewritter Component all the way at the top*/
 #panchito{
   width: 65%;
-  height: 50%;
+  height: 10%;
 }
 
 /*This is for the Beatriz img in the typewritter Component all the way at the top*/
 #beatriz{
   width: 65%;
-  height: 50%;
+  height: 10%;
 }
 
 /*This is the TacosBeatriz logo in the typewritter Component all the way at the top*/
 #TacosBeatriz{
-  width: 450px;
+  width: 100%;
   height: 200px;
   margin-top: 30px;
   margin-left: 0px;
 }
-/*This is the Apeisar logo in the typewritter Component all the way at the top*/
+/*This is the Apetisar logo in the typewritter Component all the way at the top*/
 #Apetisar{
-width: 450px;
+width: 100%;
 height: : 950px;
 margin-top: 50px;
+}
+
+/*This is for the typewriter overall in typewriter.jsx*/
+.show-grid-BettyYPancho{
+  margin-top: 80px;
 }
 
 /*This is for the breadcrumb Component in ./client/src/components/home/Header.jsx  */
