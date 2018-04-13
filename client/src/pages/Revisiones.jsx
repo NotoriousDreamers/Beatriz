@@ -1,8 +1,13 @@
+import $ from "jquery";
 import React from "react";
+
+
+
+
+import Footer from "../components/home/Footer.jsx";
 import Header from "../components/home/Header.jsx";
 import AddReviews from "../components/Reviews/AddReviews.jsx";
 import ReviewsList from "../components/Reviews/ReviewsList.jsx";
-import $ from "jquery";
 
 class Revisiones extends React.Component{
   constructor(props){
@@ -48,13 +53,16 @@ class Revisiones extends React.Component{
 
 
   render(){
-    return (<div>
-      <Header />
-      <h1>Tus experiencias de primera mano realmente ayudan a nuestra clientela. ¡Gracias!</h1>
-     <AddReviews addReviews={this.addReview}/>
-     <ReviewsList list={this.state.list}/>
-
-    </div>)
+    return (
+      <div>
+        <br />
+        <Header />
+        <h1>Tus experiencias de primera mano realmente ayudan a nuestra clientela. ¡Gracias!</h1>
+       <AddReviews addReviews={this.addReview}/>
+       <ReviewsList list={this.state.list}/>
+       <br /><br /><br /><br /><br /><br />
+       <Footer />
+     </div>)
   }
 }
 
