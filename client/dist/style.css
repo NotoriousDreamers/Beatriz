@@ -120,3 +120,123 @@ margin-bottom: 10%;
 .menusDeAlimentos{
   margin-top: 7%;
 }
+
+/*This is for the Footer in Footer.jsx to see how effective it reacts to different sizes*/
+$grid-gutter-width: 1.5rem;
+$grid-columns: 12;
+
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+body {
+  font-size: 1rem;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+.content-main,
+.content-secondary {
+  background: #eee;
+  line-height: 100px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+        /*DO NOT TOUCH NOR MODIFY FROM HERE TO THE OTHER COMMENT BELOW*/
+/*This is for the Footer in all the pages, it manages how it adjusts to different devices.*/
+/*/client/src/components/home/Footer.jsx*/
+/*
+// Grid system
+//
+// Generate semantic grid columns with these mixins.
+
+// Centered container element
+*/
+@mixin make-container($gutter: $grid-gutter-width)
+{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left:  ($gutter / 2);
+  padding-right: ($gutter / 2);
+}
+
+/*// Creates a wrapper for a series of columns*/
+@mixin make-row($gutter: $grid-gutter-width)
+{
+  margin-left:  ($gutter / -2);
+  margin-right: ($gutter / -2);
+}
+
+@mixin make-col($gutter: $grid-gutter-width)
+{
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-left:  ($gutter / 2);
+  padding-right: ($gutter / 2);
+}
+
+@mixin make-col-span($columns)
+{
+  width: percentage(($columns / $grid-columns));
+}
+@mixin make-col-offset($columns)
+{
+  margin-left: percentage(($columns / $grid-columns));
+}
+@mixin make-col-push($columns)
+{
+  left: percentage(($columns / $grid-columns));
+}
+@mixin make-col-pull($columns)
+{
+  right: percentage(($columns / $grid-columns));
+}
+
+
+.container {
+  @include make-container();
+}
+
+.row {
+  @include make-row();
+}
+
+.content-main {
+  @include make-col();
+
+  @media (max-width: 32em) {
+    @include make-col-span(6);
+  }
+
+  @media (min-width: 32.1em) {
+    @include make-col-span(8);
+  }
+}
+          /*DO NOT TOUCH NOR MODIFY FROM HERE TO THE OTHER COMMENT ABOVE*/
+
+
+
+/*This is for the Social Media Icons in the Footer*/
+/*/client/src/components/home/Footer.jsx*/
+#SocialMediaIcons{
+  width: 4%;
+  height: 4%;
+  margin: 5px;
+}
+
+/*This is for the TyperWritter component in the Sobre Nostros page*/
+/*/client/src/components/Aboutis/aboutUs.jsx*/
+.show-grid-AboutUs{
+  margin-top: 15%
+}
+
+.LaEscritora{
+  margin-top: 13%;
+}

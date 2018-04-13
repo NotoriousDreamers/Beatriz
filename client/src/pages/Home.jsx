@@ -2,12 +2,11 @@ import React from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 
-
+Panelll
+import Panelll from "../components/home/Panell.jsx";
 import Map from "../components/home/Map.jsx";
 import Video from "../components/home/Video.jsx";
 import Header from "../components/home/Header.jsx";
-import Footer from "../components/home/Footer.jsx";
-import Header2 from "../components/home/Header2.jsx";
 import FoodMenu from "../components/home/FoodMenu.jsx";
 import Carousel from "../components/home/Carousel.jsx";
 import TypeWriteR from "../components/home/typewriter.jsx";
@@ -43,7 +42,7 @@ class Home extends React.Component {
           <Map />
         </div>
         <div>
-          <Footer />
+          <Panelll />
         </div>
       </div>
     );

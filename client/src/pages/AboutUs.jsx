@@ -11,7 +11,7 @@ class AboutUs extends React.Component {
 
   render() {
     return (
-      <div> 
+      <div>
 
         <div>
           <Header />
